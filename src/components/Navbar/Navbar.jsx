@@ -7,7 +7,7 @@ const Navbar = () => {
         <li><Link to='/about'>About us</Link></li>
         <li>
             <Link to='/services'>Services</Link>
-            <ul className="p-2">
+            {/* <ul className="p-2">
                 <li><Link>Submenu 1</Link></li>
                 <li><Link>Submenu 2</Link></li>
                 <li><Link>Submenu 2</Link></li>
@@ -20,7 +20,7 @@ const Navbar = () => {
                 <li><Link>Submenu 2</Link></li>
                 <li><Link>Submenu 2</Link></li>
                 <li><Link>Submenu 2</Link></li>
-            </ul>
+            </ul> */}
         </li>
         <li><Link to='/contact'>Contact</Link></li>
 
@@ -43,7 +43,7 @@ const Navbar = () => {
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">
-                    <li><a>Item 1</a></li>
+                    {/* <li><a>Item 1</a></li>
                     <li>
                         <details>
                             <summary>Parent</summary>
@@ -53,7 +53,10 @@ const Navbar = () => {
                             </ul>
                         </details>
                     </li>
-                    <li><a>Item 3</a></li>
+                    <li><a>Item 3</a></li> */}
+                    {
+                        navbarItem
+                    }
                 </ul>
             </div>
             <div className="navbar-end">
