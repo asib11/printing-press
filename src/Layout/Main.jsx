@@ -9,7 +9,7 @@ const Main = () => {
             <Navbar></Navbar>
             <Outlet></Outlet>
             <Footer></Footer>
-            <p className="text-center font-bold mt-2 mb-4 text-[#800000]">copyright{copy} 2024 || Develop by <a href="">ASIB AHMED</a></p>
+            <p className="text-center font-bold my-2 text-[#800000]">copyright{copy} 2024 || Develop by <a href="">ASIB AHMED</a></p>
         </div>
     );
 };

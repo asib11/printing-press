@@ -29,7 +29,13 @@ const Footer = () => {
             </nav>
             <aside>
                 <h2 className="text-3xl text-right">Prime Digital World</h2>
-                <p>ACME Industries Ltd.<br />Providing reliable tech since 1992</p>
+                <p>
+                    P.O.Box 3741,Behind Gold & Diamond Park <br />
+                    4th I/Change,Sheikh Zayed Road, Al Quoz 3 <br />
+                    crm@pdwdubai.com <br />
+                    +04-3411886 <br />
+                    +04-3411889
+                </p>
             </aside>
         </footer>
     );
