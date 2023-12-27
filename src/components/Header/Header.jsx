@@ -6,16 +6,16 @@ import img5 from '../../assets/banner/WhatsApp Image 2023-12-23 at 14.20.26_3cb4
 import img6 from '../../assets/banner/WhatsApp Image 2023-12-23 at 14.20.23_8d815213.jpg'
 const Header = () => {
     return (
-        <div className="carousel w-full rounded-xl h-[600px] mt-2">
+        <div className="carousel w-full rounded-xl lg:h-[600px] md:h-[500px] h-[300px] mt-2">
             <div id="slide1" className="carousel-item relative w-full ">
                 <img src={img1} className="w-full " />
                 <div className="absolute flex items-center top-0 bottom-0 bg-gradient-to-r from-[#803c00a9] to-[rgba(128, 0, 0, 0.00)] ">
-                    <div className='text-white space-y-7 pl-24 w-1/3'>
-                        <h1 className='lg:text-7xl text-5xl font-bold'>Affordable Price For Printing Servicing</h1>
-                        <p className='lg:text-lg text-base'>There are many variations of passages of  available, but the majority have suffered alteration in some form</p>
+                    <div className='text-white space-y-4 md:space-y-5 lg:space-y-7 pl-16 md:pl-20 lg:pl-24 w-1/2 lg:w-1/3'>
+                        <h1 className='lg:text-7xl md:text-5xl text-3xl font-bold'>Affordable Price For Printing Servicing</h1>
+                        <p className='lg:text-lg md:text-base text-xs'>There are many variations of passages of  available, but the majority have suffered alteration in some form</p>
                         <div className='flex'>
-                            <button className='btn rounded-none w-36 bg-[#800000] border-none mr-3 text-white'>discover more</button>
-                            <button className='btn rounded-none w-36 btn-outline text-white'>latest price</button>
+                            <button className='btn rounded-none w-30 lg:w-36 bg-[#800000] border-none mr-3 text-white'>discover more</button>
+                            <button className='btn rounded-none w-30 lg:w-36 btn-outline text-white'>latest price</button>
                         </div>
                     </div>
                 </div>
