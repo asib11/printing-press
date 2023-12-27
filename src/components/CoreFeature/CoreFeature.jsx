@@ -6,7 +6,7 @@ const CoreFeature = () => {
             <h3 className="text-xl font-semibold text-center text-[#800000]">Core Features</h3>
             <h1 className="text-5xl text-center font-bold mb-4">Why Choose Us?</h1>
             <p className="text-center">the majority have suffered alteration in some form, by injected humour, <br /> or randomised words which don't look even slightly believable. </p>
-            <div className="flex justify-between pt-8">
+            <div className="grid lg:grid-cols-6 md:grid-cols-3 grid-cols-2 gap-10 pt-8">
                 <div className="p-7 flex flex-col items-center rounded-md border-2" >
                     <svg xmlns="http://www.w3.org/2000/svg" width="76" height="55" viewBox="0 0 76 55" fill="none">
                         <path d="M37.817 30.7964C29.8752 30.7964 23.414 37.2575 23.414 45.1993V54.0627H52.2199V45.1993C52.2199 37.2575 45.7588 30.7964 37.817 30.7964Z" fill="#800000" />

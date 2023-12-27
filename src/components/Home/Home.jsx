@@ -1,3 +1,4 @@
+import AboutUs from '../AboutUs/AboutUs';
 import CoreFeature from '../CoreFeature/CoreFeature';
 import Header from '../Header/Header';
 
@@ -6,6 +7,7 @@ const Home = () => {
         <div>
             <Header></Header>
             <CoreFeature></CoreFeature>
+            <AboutUs></AboutUs>
         </div>
     );
 };
