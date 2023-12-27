@@ -43,7 +43,7 @@ const Navbar = () => {
                         </div>
                     </ul>
                 </div>
-                <Link className="lg:text-3xl md:text-2xl text-xs font-semibold">
+                <Link className="lg:text-3xl md:text-2xl text-lg font-semibold">
                     <div >
                         <p className="text-end">المطبعة الرئيسية</p>
                         <p>Prime Printing Press</p>
@@ -74,7 +74,7 @@ const Navbar = () => {
 
             </div>
             <div className="navbar-end">
-                <Link className="lg:text-3xl md:text-2xl text-xs font-semibold">
+                <Link className="lg:text-3xl md:text-2xl text-lg font-semibold">
                     <div>
                         <p className="text-end">العالم الرقمي الأول</p>
                         <p>Prime Digital world</p>
