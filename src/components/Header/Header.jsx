@@ -6,7 +6,7 @@ import img5 from '../../assets/banner/WhatsApp Image 2023-12-23 at 14.20.26_3cb4
 import img6 from '../../assets/banner/WhatsApp Image 2023-12-23 at 14.20.23_8d815213.jpg'
 const Header = () => {
     return (
-        <div className="carousel w-full rounded-xl h-[600px] mt-8">
+        <div className="carousel w-full rounded-xl h-[600px] mt-2">
             <div id="slide1" className="carousel-item relative w-full ">
                 <img src={img1} className="w-full " />
                 <div className="absolute flex items-center top-0 bottom-0 bg-gradient-to-r from-[#803c00a9] to-[rgba(128, 0, 0, 0.00)] ">

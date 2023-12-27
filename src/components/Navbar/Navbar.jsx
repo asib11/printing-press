@@ -27,7 +27,7 @@ const Navbar = () => {
     </>
 
     return (
-        <div className="navbar  text-[#800000] border-b-4 border-[#800000]">
+        <div className="navbar  text-[#800000] ">
             <div className="navbar-start">
                 <div className="dropdown">
                     <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -39,9 +39,18 @@ const Navbar = () => {
                         }
                     </ul>
                 </div>
-                <a className="btn btn-ghost text-3xl">Prime Printing Press</a>
+                <Link className="text-3xl font-semibold">
+                    <div >
+                        <p className="text-end">المطبعة الرئيسية</p>
+                        <p>Prime Printing Press</p>
+                    </div>
+                </Link>
             </div>
-            <div className="navbar-center hidden lg:flex">
+            <div className="navbar-center hidden lg:flex flex-col">
+                <ul className="menu menu-horizontal text-lg px-24 font-semibold bg-[#800000] text-white">
+                    <li><Link>+968 99364737</Link></li>
+                    <li><Link>sales@primeprintingpress.com</Link></li>
+                </ul>
                 <ul className="menu menu-horizontal px-1 text-xl font-semibold">
                     {/* <li><a>Item 1</a></li>
                     <li>
@@ -58,9 +67,15 @@ const Navbar = () => {
                         navbarItem
                     }
                 </ul>
+
             </div>
             <div className="navbar-end">
-                <a className="btn btn-ghost text-3xl">Prime Digital world</a>
+                <Link className="text-3xl font-semibold">
+                    <div>
+                        <p className="text-end">العالم الرقمي الأول</p>
+                        <p>Prime Digital world</p>
+                    </div>
+                </Link>
             </div>
         </div>
     );
