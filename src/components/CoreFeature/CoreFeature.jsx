@@ -2,7 +2,7 @@
 
 const CoreFeature = () => {
     return (
-        <div className=" my-10 ">
+        <div className="my-10 max-sm:p-4">
             <h3 className="text-xl font-semibold text-center text-[#800000]">Core Features</h3>
             <h1 className="text-5xl text-center font-bold mb-4">Why Choose Us?</h1>
             <p className="text-center">the majority have suffered alteration in some form, by injected humour, <br /> or randomised words which don't look even slightly believable. </p>
