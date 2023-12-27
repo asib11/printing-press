@@ -28,8 +28,7 @@ const Navbar = () => {
 
     return (
         <div className="navbar  text-[#800000] ">
-            <div className="navbar-start">
-                <div className="dropdown">
+            <div className="dropdown">
                     <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
                         <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
                     </div>
@@ -43,7 +42,9 @@ const Navbar = () => {
                         </div>
                     </ul>
                 </div>
-                <Link className="lg:text-3xl md:text-2xl text-lg font-semibold">
+            <div className="navbar-start">
+                
+                <Link className="lg:text-3xl md:text-2xl text-sm font-semibold">
                     <div >
                         <p className="text-end">المطبعة الرئيسية</p>
                         <p>Prime Printing Press</p>
@@ -51,6 +52,7 @@ const Navbar = () => {
                 </Link>
             </div>
             <div className="navbar-center hidden lg:flex flex-col">
+                
                 <ul className="menu menu-horizontal text-lg px-24 font-semibold bg-[#800000] text-white">
                     <li><Link>+968 99364737</Link></li>
                     <li><Link>sales@primeprintingpress.com</Link></li>
@@ -74,7 +76,7 @@ const Navbar = () => {
 
             </div>
             <div className="navbar-end">
-                <Link className="lg:text-3xl md:text-2xl text-lg font-semibold">
+                <Link className="lg:text-3xl md:text-2xl text-sm font-semibold">
                     <div>
                         <p className="text-end">العالم الرقمي الأول</p>
                         <p>Prime Digital world</p>
