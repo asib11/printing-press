@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-
+import { EnvelopeIcon, PhoneIcon, } from '@heroicons/react/24/solid'
 
 const Navbar = () => {
     const navbarItem = <>
@@ -37,8 +37,8 @@ const Navbar = () => {
                             navbarItem
                         }
                         <div className="bg-[#800000] text-white rounded-xl">
-                        <li ><Link>+968 99364737</Link></li>
-                        <li ><Link>sales@primeprintingpress.com</Link></li>
+                        <li ><Link><PhoneIcon className="h-4 w-4" />+968 99364737</Link></li>
+                        <li ><Link><EnvelopeIcon className="h-4 w-4" />sales@primeprintingpress.com</Link></li>
                         </div>
                     </ul>
                 </div>
@@ -54,8 +54,8 @@ const Navbar = () => {
             <div className="navbar-center hidden lg:flex flex-col">
                 
                 <ul className="menu menu-horizontal text-lg px-24 font-semibold bg-[#800000] text-white">
-                    <li><Link>+968 99364737</Link></li>
-                    <li><Link>sales@primeprintingpress.com</Link></li>
+                    <li><Link><PhoneIcon className="h-5 w-6 " />+968 99364737</Link></li>
+                    <li><Link><EnvelopeIcon className="h-5 w-6 " />sales@primeprintingpress.com</Link></li>
                 </ul>
                 <ul className="menu menu-horizontal px-1 text-xl font-semibold">
                     {/* <li><a>Item 1</a></li>

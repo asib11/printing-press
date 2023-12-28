@@ -4,6 +4,8 @@ import img3 from '../../assets/banner/WhatsApp Image 2023-12-23 at 14.20.21_d92e
 import img4 from '../../assets/banner/WhatsApp Image 2023-12-23 at 14.20.22_48e9343a.jpg'
 import img5 from '../../assets/banner/WhatsApp Image 2023-12-23 at 14.20.26_3cb4d364.jpg'
 import img6 from '../../assets/banner/WhatsApp Image 2023-12-23 at 14.20.23_8d815213.jpg'
+import { ArrowLongLeftIcon, ArrowLongRightIcon, } from '@heroicons/react/24/solid'
+
 const Header = () => {
     return (
         <div className="carousel w-full rounded-xl lg:h-[600px] md:h-[500px] h-[350px] mt-2">
@@ -20,8 +22,8 @@ const Header = () => {
                     </div>
                 </div>
                 <div className="absolute flex justify-end transform -translate-y-1/2 left-5 right-5 bottom-0">
-                    <a href="#slide6" className="btn btn-circle mr-4 opacity-[0.6]">❮</a>
-                    <a href="#slide2" className="btn btn-circle bg-[#800000]">❯</a>
+                    <a href="#slide6" className="btn btn-circle mr-4 opacity-[0.6]"><ArrowLongLeftIcon className="h-5 w-6 " /></a>
+                    <a href="#slide2" className="btn btn-circle bg-[#800000]"><ArrowLongRightIcon className="h-5 w-6 text-white" /></a>
                 </div>
             </div>
             <div id="slide2" className="carousel-item relative w-full">
@@ -37,8 +39,8 @@ const Header = () => {
                     </div>
                 </div>
                 <div className="absolute flex justify-end transform -translate-y-1/2 left-5 right-5 bottom-0">
-                    <a href="#slide1" className="btn btn-circle mr-2 opacity-[0.6]">❮</a>
-                    <a href="#slide3" className="btn btn-circle bg-[#800000]">❯</a>
+                    <a href="#slide1" className="btn btn-circle mr-2 opacity-[0.6]"><ArrowLongLeftIcon className="h-5 w-6 " /></a>
+                    <a href="#slide3" className="btn btn-circle bg-[#800000]"><ArrowLongRightIcon className="h-5 w-6 text-white" /></a>
                 </div>
             </div>
             <div id="slide3" className="carousel-item relative w-full">
@@ -54,8 +56,8 @@ const Header = () => {
                     </div>
                 </div>
                 <div className="absolute flex justify-end transform -translate-y-1/2 left-5 right-5 bottom-0">
-                    <a href="#slide2" className="btn btn-circle mr-2 opacity-[0.6]">❮</a>
-                    <a href="#slide4" className="btn btn-circle bg-[#800000]">❯</a>
+                    <a href="#slide2" className="btn btn-circle mr-2 opacity-[0.6]"><ArrowLongLeftIcon className="h-5 w-6 " /></a>
+                    <a href="#slide4" className="btn btn-circle bg-[#800000]"><ArrowLongRightIcon className="h-5 w-6 text-white" /></a>
                 </div>
             </div>
             <div id="slide4" className="carousel-item relative w-full">
@@ -71,8 +73,8 @@ const Header = () => {
                     </div>
                 </div>
                 <div className="absolute flex justify-end transform -translate-y-1/2 left-5 right-5 bottom-0">
-                    <a href="#slide3" className="btn btn-circle mr-2 opacity-[0.6]">❮</a>
-                    <a href="#slide5" className="btn btn-circle bg-[#800000]">❯</a>
+                    <a href="#slide3" className="btn btn-circle mr-2 opacity-[0.6]"><ArrowLongLeftIcon className="h-5 w-6 " /></a>
+                    <a href="#slide5" className="btn btn-circle bg-[#800000]"><ArrowLongRightIcon className="h-5 w-6 text-white" /></a>
                 </div>
             </div>
             <div id="slide5" className="carousel-item relative w-full">
@@ -88,8 +90,8 @@ const Header = () => {
                     </div>
                 </div>
                 <div className="absolute flex justify-end transform -translate-y-1/2 left-5 right-5 bottom-0">
-                    <a href="#slide4" className="btn btn-circle mr-2 opacity-[0.6]">❮</a>
-                    <a href="#slide6" className="btn btn-circle bg-[#800000]">❯</a>
+                    <a href="#slide4" className="btn btn-circle mr-2 opacity-[0.6]"><ArrowLongLeftIcon className="h-5 w-6 " /></a>
+                    <a href="#slide6" className="btn btn-circle bg-[#800000]"><ArrowLongRightIcon className="h-5 w-6 text-white" /></a>
                 </div>
             </div>
             <div id="slide6" className="carousel-item relative w-full">
@@ -105,8 +107,8 @@ const Header = () => {
                     </div>
                 </div>
                 <div className="absolute flex justify-end transform -translate-y-1/2 left-5 right-5 bottom-0">
-                    <a href="#slide5" className="btn btn-circle mr-2 opacity-[0.6]">❮</a>
-                    <a href="#slide1" className="btn btn-circle bg-[#800000]">❯</a>
+                    <a href="#slide5" className="btn btn-circle mr-2 opacity-[0.6]"><ArrowLongLeftIcon className="h-5 w-6 " /></a>
+                    <a href="#slide1" className="btn btn-circle bg-[#800000]"><ArrowLongRightIcon className="h-5 w-6 text-white" /></a>
                 </div>
             </div>
         </div>
