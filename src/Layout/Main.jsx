@@ -9,7 +9,7 @@ const Main = () => {
             <Navbar></Navbar>
             <Outlet></Outlet>
             <Footer></Footer>
-            <p className="text-center font-bold my-2 text-[#800000]">copyright{copy} 2024 || Develop by <a href="">ASIB AHMED</a></p>
+            <p className="text-center font-semibold my-2  ">copyright{copy} 2024 || Develop by <a className='font-mono font-bold hover:underline text-[#fd5252]' href="https://wa.me/+8801753249719" target="_blank" rel="noreferrer">ASIB AHMED</a></p>
         </div>
     );
 };
