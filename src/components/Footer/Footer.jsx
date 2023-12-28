@@ -6,7 +6,13 @@ const Footer = () => {
             <aside>
                 <h2 className="text-3xl">المطبعة الرئيسية</h2>
                 <h2 className="text-3xl">Prime Printing Press</h2>
-                <p>XYZ Industries Ltd.<br />Providing reliable tech since 1992</p>
+                <p>
+                    PO Box 336, PC 112, CBD, Ruwi, Muscat, <br />
+                    Sultanate of Oman  Near the Central Bank of Oman <br />
+                    sales@primeprintingpress.com <br />
+                    +968-99364737 <br />
+                    22391571
+                </p>
             </aside>
             <nav>
                 <header className="footer-title">Services</header>
@@ -32,11 +38,11 @@ const Footer = () => {
                 <h2 className="text-3xl">العالم الرقمي الأول</h2>
                 <h2 className="text-3xl">Prime Digital World</h2>
                 <p>
-                    P.O.Box 3741,Behind Gold & Diamond Park <br />
-                    4th I/Change,Sheikh Zayed Road, Al Quoz 3 <br />
-                    crm@pdwdubai.com <br />
-                    +04-3411886 <br />
-                    +04-3411889
+                    PO Box 336, PC 112, CBD, Ruwi, Muscat, <br />
+                    Sultanate of Oman  Near the Central Bank of Oman <br />
+                    sales@primeprintingpress.com <br />
+                    +968-99364737 <br />
+                    22391571
                 </p>
             </aside>
         </footer>
