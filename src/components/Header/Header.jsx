@@ -8,7 +8,7 @@ import { ArrowLongLeftIcon, ArrowLongRightIcon, } from '@heroicons/react/24/soli
 
 const Header = () => {
     return (
-        <div className="carousel w-full rounded-xl lg:h-[600px] md:h-[500px] h-[350px] mt-2">
+        <div className="carousel w-full rounded-lg lg:h-[600px] md:h-[500px] h-[350px] mt-2">
             <div id="slide1" className="carousel-item relative w-full ">
                 <img src={img1} className="w-full " />
                 <div className="absolute flex items-center top-0 bottom-0 bg-gradient-to-r from-[#803c00a9] to-[rgba(128, 0, 0, 0.00)] ">

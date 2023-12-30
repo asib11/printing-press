@@ -39,7 +39,7 @@ const Navbar = () => {
                         navbarItem
                     }
                     <div className="bg-[#800000] text-white rounded-xl">
-                        <li ><Link><PhoneIcon className="h-4 w-4" />+968 99364737</Link></li>
+                        <li ><Link><PhoneIcon className="h-4 w-4" />+968-99364737</Link></li>
                         <li ><Link><EnvelopeIcon className="h-4 w-4" />sales@primeprintingpress.com</Link></li>
                     </div>
                 </ul>
@@ -55,7 +55,7 @@ const Navbar = () => {
             </div>
             <div className="navbar-center hidden lg:flex flex-col">
                 <ul className="menu menu-horizontal text-lg px-24 font-semibold bg-[#800000] text-white">
-                    <li><Link><PhoneIcon className="h-5 w-6" />+968 99364737</Link></li>
+                    <li><Link><PhoneIcon className="h-5 w-6" />+968-99364737</Link></li>
                     <li><Link><EnvelopeIcon className="h-5 w-6" />sales@primeprintingpress.com</Link></li>
                 </ul>
                 <ul className="menu menu-horizontal z-[1] px-1 text-xl font-semibold">

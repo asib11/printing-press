@@ -32,7 +32,7 @@ const FindUs = () => {
                 </svg>
                 <div className="text-white ml-6">
                     <p>Have a question?</p>
-                    <h3 className="text-2xl font-semibold">+00000000000000</h3>
+                    <h3 className="text-2xl font-semibold">+968-99364737</h3>
                 </div>
             </div>
             <div className="flex justify-center items-center">
@@ -43,7 +43,7 @@ const FindUs = () => {
                 </svg>
                 <div className="text-white ml-6">
                     <p>Need a print? our address</p>
-                    <h3 className="text-2xl font-semibold">+00000000000000</h3>
+                    <h3 className="text-2xl font-semibold">Muscat, Sultanate of Oman</h3>
                 </div>
             </div>
         </div>
