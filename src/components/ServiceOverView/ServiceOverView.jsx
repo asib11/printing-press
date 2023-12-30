@@ -2,9 +2,10 @@
 
 const ServiceOverView = () => {
     return (
-        <div>
-            <h3 className='text-xl text-center font-bold text-[#800000]'>Services</h3>
-            <p className="m-10 text-center">under develop</p>
+        <div className="text-center">
+            <h3 className='text-xl  font-bold text-[#800000]'>Services</h3>
+            <h1 className="text-5xl font-bold">Our Service Area</h1>
+            <p className="py-6">the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
         </div>
     );
 };
