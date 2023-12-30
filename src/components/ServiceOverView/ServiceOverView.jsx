@@ -19,7 +19,7 @@ const ServiceOverView = () => {
                         <h2 className="card-title text-[#800000]">business card</h2>
                         <div className="card-actions">
                             <Link to='/services'>
-                                <button className="btn bg-[#800000] text-white"><ArrowLongRightIcon className="h-5 w-6 text-white" /></button>
+                                <button className="btn outline outline-[#800000] text-[#800000]"><ArrowLongRightIcon className="h-5 w-6" /></button>
                             </Link>
                         </div>
                     </div>
@@ -32,7 +32,7 @@ const ServiceOverView = () => {
                         <h2 className="card-title text-[#800000]">letterhead</h2>
                         <div className="card-actions">
                             <Link to='/services'>
-                                <button className="btn bg-[#800000] text-white"><ArrowLongRightIcon className="h-5 w-6 text-white" /></button>
+                                <button className="btn outline outline-[#800000] text-[#800000]"><ArrowLongRightIcon className="h-5 w-6" /></button>
                             </Link>
                         </div>
                     </div>
@@ -45,7 +45,7 @@ const ServiceOverView = () => {
                         <h2 className="card-title text-[#800000]">Stamp</h2>
                         <div className="card-actions">
                             <Link to='/services'>
-                                <button className="btn bg-[#800000] text-white"><ArrowLongRightIcon className="h-5 w-6 text-white" /></button>
+                                <button className="btn outline outline-[#800000] text-[#800000]"><ArrowLongRightIcon className="h-5 w-6" /></button>
                             </Link>
                         </div>
                     </div>
@@ -58,7 +58,7 @@ const ServiceOverView = () => {
                         <h2 className="card-title text-[#800000]">Books</h2>
                         <div className="card-actions">
                             <Link to='/services'>
-                                <button className="btn bg-[#800000] text-white"><ArrowLongRightIcon className="h-5 w-6 text-white" /></button>
+                                <button className="btn outline outline-[#800000] text-[#800000]"><ArrowLongRightIcon className="h-5 w-6" /></button>
                             </Link>
                         </div>
                     </div>
@@ -71,7 +71,7 @@ const ServiceOverView = () => {
                         <h2 className="card-title text-[#800000]">digital stickers printing with lamination</h2>
                         <div className="card-actions">
                             <Link to='/services'>
-                                <button className="btn bg-[#800000] text-white"><ArrowLongRightIcon className="h-5 w-6 text-white" /></button>
+                                <button className="btn outline outline-[#800000] text-[#800000]"><ArrowLongRightIcon className="h-5 w-6" /></button>
                             </Link>
                         </div>
                     </div>
@@ -84,7 +84,7 @@ const ServiceOverView = () => {
                         <h2 className="card-title text-[#800000]">Perfume Box</h2>
                         <div className="card-actions">
                             <Link to='/services'>
-                                <button className="btn bg-[#800000] text-white"><ArrowLongRightIcon className="h-5 w-6 text-white" /></button>
+                                <button className="btn outline outline-[#800000] text-[#800000]"><ArrowLongRightIcon className="h-5 w-6" /></button>
                             </Link>
                         </div>
                     </div>
