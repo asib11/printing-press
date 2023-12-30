@@ -9,7 +9,7 @@ const Main = () => {
             <Navbar></Navbar>
             <Outlet></Outlet>
             <Footer></Footer>
-            <div className="flex justify-between text-xs rounded-sm font-semibold mt-1 px-4">
+            <div className="flex justify-between text-sm rounded-sm font-semibold mt-1 px-4">
                 <p >copyright{copy} 2024</p>
                 <p> Develop by <a className='font-mono font-bold hover:font-extrabold hover:underline text-[#C32148]' href="https://wa.me/+8801753249719" target="_blank" rel="noreferrer">ASIB AHMED</a></p>
             </div>

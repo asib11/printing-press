@@ -15,11 +15,11 @@ const ServiceOverView = () => {
                     <figure className="p-5">
                         <img src={img1} alt="printingPress" className="rounded-lg" />
                     </figure>
-                    <div className="card-body lg:flex-row justify-between">
-                        <h2 className="card-title text-[#800000]">business card</h2>
+                    <div className="card-body flex-row justify-between items-center">
+                        <h2 className="card-title text-[#800000]">Business Card</h2>
                         <div className="card-actions">
                             <Link to='/services'>
-                                <button className="btn outline outline-[#800000] text-[#800000]"><ArrowLongRightIcon className="h-5 w-6" /></button>
+                                <button className="btn btn-circle text-[#800000]"><ArrowLongRightIcon className="h-5 w-6" /></button>
                             </Link>
                         </div>
                     </div>
@@ -28,11 +28,11 @@ const ServiceOverView = () => {
                     <figure className="p-5">
                         <img src={img1} alt="printingPress" className="rounded-lg" />
                     </figure>
-                    <div className="card-body lg:flex-row justify-between">
-                        <h2 className="card-title text-[#800000]">letterhead</h2>
+                    <div className="card-body flex-row justify-between items-center">
+                        <h2 className="card-title text-[#800000]">Letterhead</h2>
                         <div className="card-actions">
                             <Link to='/services'>
-                                <button className="btn outline outline-[#800000] text-[#800000]"><ArrowLongRightIcon className="h-5 w-6" /></button>
+                                <button className="btn btn-circle text-[#800000]"><ArrowLongRightIcon className="h-5 w-6" /></button>
                             </Link>
                         </div>
                     </div>
@@ -41,11 +41,11 @@ const ServiceOverView = () => {
                     <figure className="p-5">
                         <img src={img1} alt="printingPress" className="rounded-lg" />
                     </figure>
-                    <div className="card-body lg:flex-row justify-between">
+                    <div className="card-body flex-row justify-between items-center">
                         <h2 className="card-title text-[#800000]">Stamp</h2>
                         <div className="card-actions">
                             <Link to='/services'>
-                                <button className="btn outline outline-[#800000] text-[#800000]"><ArrowLongRightIcon className="h-5 w-6" /></button>
+                                <button className="btn btn-circle text-[#800000]"><ArrowLongRightIcon className="h-5 w-6" /></button>
                             </Link>
                         </div>
                     </div>
@@ -54,11 +54,11 @@ const ServiceOverView = () => {
                     <figure className="p-5">
                         <img src={img1} alt="printingPress" className="rounded-lg" />
                     </figure>
-                    <div className="card-body lg:flex-row justify-between">
+                    <div className="card-body flex-row justify-between items-center">
                         <h2 className="card-title text-[#800000]">Books</h2>
                         <div className="card-actions">
                             <Link to='/services'>
-                                <button className="btn outline outline-[#800000] text-[#800000]"><ArrowLongRightIcon className="h-5 w-6" /></button>
+                                <button className="btn btn-circle text-[#800000]"><ArrowLongRightIcon className="h-5 w-6" /></button>
                             </Link>
                         </div>
                     </div>
@@ -67,11 +67,11 @@ const ServiceOverView = () => {
                     <figure className="p-5">
                         <img src={img1} alt="printingPress" className="rounded-lg" />
                     </figure>
-                    <div className="card-body lg:flex-row justify-between">
-                        <h2 className="card-title text-[#800000]">digital stickers printing with lamination</h2>
+                    <div className="card-body flex-row justify-between items-center">
+                        <h2 className="card-title text-[#800000]">Digital Stickers Printing with Lamination</h2>
                         <div className="card-actions">
                             <Link to='/services'>
-                                <button className="btn outline outline-[#800000] text-[#800000]"><ArrowLongRightIcon className="h-5 w-6" /></button>
+                                <button className="btn btn-circle text-[#800000]"><ArrowLongRightIcon className="h-5 w-6" /></button>
                             </Link>
                         </div>
                     </div>
@@ -80,11 +80,11 @@ const ServiceOverView = () => {
                     <figure className="p-5">
                         <img src={img1} alt="printingPress" className="rounded-lg" />
                     </figure>
-                    <div className="card-body lg:flex-row justify-between">
+                    <div className="card-body flex-row justify-between items-center">
                         <h2 className="card-title text-[#800000]">Perfume Box</h2>
                         <div className="card-actions">
                             <Link to='/services'>
-                                <button className="btn outline outline-[#800000] text-[#800000]"><ArrowLongRightIcon className="h-5 w-6" /></button>
+                                <button className="btn btn-circle text-[#800000]"><ArrowLongRightIcon className="h-5 w-6" /></button>
                             </Link>
                         </div>
                     </div>
