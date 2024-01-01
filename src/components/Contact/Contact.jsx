@@ -4,7 +4,7 @@ import { MdEmail, } from "react-icons/md";
 const Contact = () => {
     return (
         <div>
-            <div className="flex justify-between max-sm:flex-col max-sm:gap-5 md:gap-6">
+            <div className="flex justify-between max-sm:flex-col max-sm:gap-5 md:gap-6 pb-6">
                 <div className="space-y-3">
                     <h1 className="lg:text-7xl text-5xl font-extrabold text-[#800000]">Muscat Office</h1>
                     <h3 className="lg:text-5xl text-3xl font-bold">Prime Printing Press</h3>
@@ -20,6 +20,13 @@ const Contact = () => {
                         <span className="flex items-center gap-4"><span className="text-[#800000]"><FaPhone /></span> +968-22391571</span>
                         <span className="flex items-center gap-4"><span className="text-[#800000]"><FaPhone /></span> 22391571</span>
                     </p>
+                    <div className="flex gap-2 lg:text-3xl text-xl text-[#800000]">
+                        <a href="" target="_blank" rel="noreferrer"><FaWhatsapp /></a>
+                        <a href="" target="_blank" rel="noreferrer"><FaFacebook /></a>
+                        <a href="" target="_blank" rel="noreferrer"><FaLinkedin /></a>
+                        <a href="" target="_blank" rel="noreferrer"><FaInstagram /></a>
+                        <a href="" target="_blank" rel="noreferrer"><FaGoogle /></a>
+                    </div>
                 </div>
                 <div className="space-y-3">
                     <h1 className="lg:text-7xl text-5xl font-extrabold text-[#800000]">Dubai-UAE</h1>
@@ -30,9 +37,16 @@ const Contact = () => {
                         </span>
                         <span className="flex items-center gap-4"><span className="text-[#800000]"><MdEmail /></span> crm@pdwdubai.com</span>
                         <span className="flex items-center gap-4"><span className="text-[#800000]"><FaPhone /></span>
-                        +971-43411886</span>
+                            +971-43411886</span>
                         <span className="flex items-center gap-4"><span className="text-[#800000]"><FaFax /></span> +968-22391571</span>
                     </p>
+                    <div className="flex gap-2 lg:text-3xl text-xl text-[#800000]">
+                        <a href="" target="_blank" rel="noreferrer"><FaWhatsapp /></a>
+                        <a href="" target="_blank" rel="noreferrer"><FaFacebook /></a>
+                        <a href="" target="_blank" rel="noreferrer"><FaLinkedin /></a>
+                        <a href="" target="_blank" rel="noreferrer"><FaInstagram /></a>
+                        <a href="" target="_blank" rel="noreferrer"><FaGoogle /></a>
+                    </div>
                 </div>
             </div>
 
