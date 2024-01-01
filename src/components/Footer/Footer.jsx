@@ -1,5 +1,7 @@
 // import logo1 from '../../assets/logo/Prime printing press logo.png'
 // import logo2 from '../../assets/logo/Prime digital logo.png'
+import { FaFacebook, FaLinkedin, FaInstagram, FaPhone, FaWhatsapp, FaGoogle, FaLocationArrow } from "react-icons/fa";
+import { MdEmail, } from "react-icons/md";
 
 
 const Footer = () => {
@@ -9,12 +11,20 @@ const Footer = () => {
                 <h2 className="text-3xl">المطبعة الرئيسية</h2>
                 <h2 className="text-3xl">Prime Printing Press</h2>
                 <p>
-                    PO Box 336, PC 112, CBD, Ruwi, Muscat, <br />
-                    Sultanate of Oman  Near the Central Bank of Oman <br />
-                    sales@primeprintingpress.com <br />
-                    +968-99364737 <br />
-                    22391571
+                    <span className="flex items-center gap-2"><FaLocationArrow /> PO Box 336, PC 112, CBD, Ruwi, Muscat, <br />
+                    Sultanate of Oman  Near the Central Bank of Oman</span>
+                    <span className="flex items-center gap-2"><MdEmail /> sales@primeprintingpress.com</span>
+                    <span className="flex items-center gap-2"><FaPhone /> +968-99364737</span>
+                    <span className="flex items-center gap-2"><FaPhone /> 22391571</span>
+
                 </p>
+                <div className="flex gap-2 text-xl">
+                    <a href="" target="_blank" rel="noreferrer"><FaWhatsapp /></a>
+                    <a href="" target="_blank" rel="noreferrer"><FaFacebook /></a>
+                    <a href="" target="_blank" rel="noreferrer"><FaLinkedin /></a>
+                    <a href="" target="_blank" rel="noreferrer"><FaInstagram /></a>
+                    <a href="" target="_blank" rel="noreferrer"><FaGoogle /></a>
+                </div>
             </aside>
             <nav>
                 <header className="footer-title">Services</header>
@@ -40,12 +50,20 @@ const Footer = () => {
                 <h2 className="text-3xl">العالم الرقمي الأول</h2>
                 <h2 className="text-3xl">Prime Digital World</h2>
                 <p>
-                    PO Box 336, PC 112, CBD, Ruwi, Muscat, <br />
-                    Sultanate of Oman  Near the Central Bank of Oman <br />
-                    sales@primeprintingpress.com <br />
-                    +968-99364737 <br />
-                    22391571
+                    <span className="flex items-center gap-2"><FaLocationArrow /> PO Box 336, PC 112, CBD, Ruwi, Muscat, <br />
+                    Sultanate of Oman  Near the Central Bank of Oman</span>
+                    <span className="flex items-center gap-2"><MdEmail /> sales@primeprintingpress.com</span>
+                    <span className="flex items-center gap-2"><FaPhone /> +968-99364737</span>
+                    <span className="flex items-center gap-2"><FaPhone /> 22391571</span>
+
                 </p>
+                <div className="flex gap-2 text-xl">
+                    <a href="" target="_blank" rel="noreferrer"><FaWhatsapp /></a>
+                    <a href="" target="_blank" rel="noreferrer"><FaFacebook /></a>
+                    <a href="" target="_blank" rel="noreferrer"><FaLinkedin /></a>
+                    <a href="" target="_blank" rel="noreferrer"><FaInstagram /></a>
+                    <a href="" target="_blank" rel="noreferrer"><FaGoogle /></a>
+                </div>
             </aside>
         </footer>
     );
