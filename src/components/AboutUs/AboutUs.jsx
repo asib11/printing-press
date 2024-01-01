@@ -1,8 +1,8 @@
 /* eslint-disable react/no-unescaped-entities */
 
 import { Link } from 'react-router-dom';
-import img1 from '../../assets/aboutUs/veichle.jpg'
-import img2 from '../../assets/aboutUs/poster.jpg'
+import img1 from '../../assets/aboutUs/veichle2.jpg'
+import img2 from '../../assets/aboutUs/poster2.jpg'
 const AboutUs = () => {
     return (
         <div className="hero min-h-screen ">
