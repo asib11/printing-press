@@ -4,7 +4,7 @@ import { MdEmail, } from "react-icons/md";
 const Contact = () => {
     return (
         <div>
-            <div className="flex justify-between max-sm:flex-col max-sm:gap-5 md:gap-6 pb-6 max-sm:pl-6">
+            <div className="flex justify-between max-sm:flex-col max-sm:gap-5 md:gap-6 pb-6 max-sm:pl-6 mt-6">
                 <div className="space-y-3">
                     <h1 className="lg:text-7xl text-5xl font-extrabold text-[#800000]">Muscat Office</h1>
                     <h3 className="lg:text-5xl text-3xl font-bold">Prime Printing Press</h3>
@@ -51,7 +51,7 @@ const Contact = () => {
             </div>
 
             <div className="max-w-1/2 my-6" >
-                <iframe className="w-full rounded border-4 border-[#800000]" src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3656.130843263617!2d58.545299075331265!3d23.599639978773574!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjPCsDM1JzU4LjciTiA1OMKwMzInNTIuNCJF!5e0!3m2!1sen!2sbd!4v1703740059554!5m2!1sen!2sbd" width="800" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe className="w-full rounded border-4 border-[#800000]" src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3656.130843263617!2d58.545299075331265!3d23.599639978773574!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjPCsDM1JzU4LjciTiA1OMKwMzInNTIuNCJF!5e0!3m2!1sen!2sbd!4v1703740059554!5m2!1sen!2sbd" width="800" height="450" allowfullscreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </div>
     );
