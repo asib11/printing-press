@@ -1,3 +1,5 @@
+// import logo1 from '../../assets/logo/Prime printing press logo.png'
+// import logo2 from '../../assets/logo/Prime digital logo.png'
 
 
 const Footer = () => {

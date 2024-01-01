@@ -1,5 +1,5 @@
 /* eslint-disable react/no-unescaped-entities */
-import img1 from '../../assets/banner/WhatsApp Image 2023-12-23 at 14.20.20_ab1b7a46.jpg'
+import img1 from '../../assets/banner/ds.jpg'
 import { Link } from "react-router-dom";
 import {ArrowLongRightIcon, } from '@heroicons/react/24/solid'
 

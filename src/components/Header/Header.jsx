@@ -1,9 +1,9 @@
 import img1 from '../../assets/banner/PHOTO-2023-11-18-21-37-25.jpg'
-import img2 from '../../assets/banner/WhatsApp Image 2023-12-23 at 14.20.20_ab1b7a46.jpg'
-import img3 from '../../assets/banner/WhatsApp Image 2023-12-23 at 14.20.21_d92ec39b.jpg'
-import img4 from '../../assets/banner/WhatsApp Image 2023-12-23 at 14.20.22_48e9343a.jpg'
-import img5 from '../../assets/banner/WhatsApp Image 2023-12-23 at 14.20.26_3cb4d364.jpg'
-import img6 from '../../assets/banner/WhatsApp Image 2023-12-23 at 14.20.23_8d815213.jpg'
+import img2 from '../../assets/banner/truck side.jpg'
+import img3 from '../../assets/banner/ds2.jpg'
+import img4 from '../../assets/banner/car2.jpg'
+import img5 from '../../assets/banner/ds3.jpg'
+import img6 from '../../assets/banner/3d.jpg'
 import { ArrowLongLeftIcon, ArrowLongRightIcon, } from '@heroicons/react/24/solid'
 
 const Header = () => {
@@ -17,7 +17,6 @@ const Header = () => {
                         <p className='lg:text-lg md:text-base text-xs'>There are many variations of passages of  available, but the majority have suffered alteration in some form</p>
                         <div className='flex'>
                             <button className='btn rounded-none w-30 lg:w-36 bg-[#800000] border-none mr-3 text-white'>discover more</button>
-                            <button className='btn rounded-none w-30 lg:w-36 btn-outline text-white'>latest price</button>
                         </div>
                     </div>
                 </div>
@@ -34,7 +33,6 @@ const Header = () => {
                         <p className='lg:text-lg md:text-base text-xs'>There are many variations of passages of  available, but the majority have suffered alteration in some form</p>
                         <div>
                             <button className='btn rounded-none w-30 lg:w-36 bg-[#800000] border-none mr-3 text-white'>discover more</button>
-                            <button className='btn rounded-none w-30 lg:w-36 btn-outline text-white'>latest price</button>
                         </div>
                     </div>
                 </div>
@@ -51,7 +49,6 @@ const Header = () => {
                         <p className='lg:text-lg md:text-base text-xs'>There are many variations of passages of  available, but the majority have suffered alteration in some form</p>
                         <div>
                             <button className='btn rounded-none w-30 lg:w-36 bg-[#800000] border-none mr-3 text-white'>discover more</button>
-                            <button className='btn rounded-none w-30 lg:w-36 btn-outline text-white'>latest price</button>
                         </div>
                     </div>
                 </div>
@@ -68,7 +65,6 @@ const Header = () => {
                         <p className='lg:text-lg md:text-base text-xs'>There are many variations of passages of  available, but the majority have suffered alteration in some form</p>
                         <div>
                             <button className='btn rounded-none w-30 lg:w-36 bg-[#800000] border-none mr-3 text-white'>discover more</button>
-                            <button className='btn rounded-none w-30 lg:w-36 btn-outline text-white'>latest price</button>
                         </div>
                     </div>
                 </div>
@@ -85,7 +81,6 @@ const Header = () => {
                         <p className='lg:text-lg md:text-base text-xs'>There are many variations of passages of  available, but the majority have suffered alteration in some form</p>
                         <div>
                             <button className='btn rounded-none w-30 lg:w-36 bg-[#800000] border-none mr-3 text-white'>discover more</button>
-                            <button className='btn rounded-none w-30 lg:w-36 btn-outline text-white'>latest price</button>
                         </div>
                     </div>
                 </div>
@@ -102,7 +97,6 @@ const Header = () => {
                         <p className='lg:text-lg md:text-base text-xs'>There are many variations of passages of  available, but the majority have suffered alteration in some form</p>
                         <div>
                             <button className='btn rounded-none w-30 lg:w-36 bg-[#800000] border-none mr-3 text-white'>discover more</button>
-                            <button className='btn rounded-none w-30 lg:w-36 btn-outline text-white'>latest price</button>
                         </div>
                     </div>
                 </div>
