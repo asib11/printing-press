@@ -4,7 +4,7 @@ import { MdEmail, } from "react-icons/md";
 const Contact = () => {
     return (
         <div>
-            <div className="flex justify-between max-sm:flex-col max-sm:gap-5 md:gap-6 pb-6">
+            <div className="flex justify-between max-sm:flex-col max-sm:gap-5 md:gap-6 pb-6 max-sm:pl-6">
                 <div className="space-y-3">
                     <h1 className="lg:text-7xl text-5xl font-extrabold text-[#800000]">Muscat Office</h1>
                     <h3 className="lg:text-5xl text-3xl font-bold">Prime Printing Press</h3>
