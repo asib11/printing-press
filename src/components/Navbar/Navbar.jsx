@@ -1,5 +1,7 @@
 import { Link } from "react-router-dom";
 import { EnvelopeIcon, PhoneIcon, } from '@heroicons/react/24/solid'
+import logo1 from '../../assets/logo/Prime printing press logo.png'
+import logo2 from '../../assets/logo/Prime digital logo.png'
 
 const Navbar = () => {
     const navbarItem = <>
@@ -48,8 +50,7 @@ const Navbar = () => {
 
                 <Link className="lg:text-3xl md:text-2xl text-sm font-semibold">
                     <div >
-                        <p className="text-end">المطبعة الرئيسية</p>
-                        <p>Prime Printing Press</p>
+                        <img src={logo1} alt="" />
                     </div>
                 </Link>
             </div>
@@ -67,8 +68,7 @@ const Navbar = () => {
             <div className="navbar-end">
                 <Link className="lg:text-3xl md:text-2xl text-sm font-semibold">
                     <div>
-                        <p className="text-end">العالم الرقمي الأول</p>
-                        <p>Prime Digital world</p>
+                        <img src={logo2} alt="" />
                     </div>
                 </Link>
             </div>
