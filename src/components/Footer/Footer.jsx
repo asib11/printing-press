@@ -14,14 +14,14 @@ const Footer = () => {
                     <h3 className=" text-3xl font-semibold">Prime Printing Press</h3>
                     <h3 className="text-3xl font-semibold">Prime Digital World</h3>
                     <p className="text-lg">
-                        <span className="flex items-center gap-2"><span className=""><FaLocationArrow /></span> PO Box 336, PC 112, CBD, Ruwi, Muscat, <br />
+                        <span className="flex items-center gap-2"><FaLocationArrow /> PO Box 336, PC 112, CBD, Ruwi, Muscat, <br />
                             Muttrah House Building <br />
                             Next to Central Bank of Oman <br />
                             Near at Lama Polyclinic
                         </span>
-                        <span className="flex items-center gap-2"><span ><MdEmail /></span> sales@primeprintingpress.com</span>
-                        <span className="flex items-center gap-2"><span><FaPhone /></span> +968-99364737</span>
-                        <span className="flex items-center gap-2"><span ><FaFax /></span> +968-22391571</span>
+                        <span className="flex items-center gap-2"><MdEmail /> <a href="mailto:sales@primeprintingpress.com">sales@primeprintingpress.com</a></span>
+                        <span className="flex items-center gap-2"><FaPhone /> <a href="tel:+968-99364737">+968-99364737</a></span>
+                        <span className="flex items-center gap-2"><FaFax /><a href="tel:+968-22391571">+968-22391571</a></span>
                     </p>
                     <div className="flex gap-2 text-xl">
                         <a href="" target="_blank" rel="noreferrer"><FaWhatsapp /></a>
@@ -64,13 +64,12 @@ const Footer = () => {
                     <h1 className=" text-5xl font-bold">Dubai-UAE</h1>
                     <h3 className=" text-3xl font-semibold">Prime Digital World <span className="text-xl">LLC</span></h3>
                     <p className="text-lg">
-                        <span className="flex items-center gap-2"><span className=""><FaLocationArrow /></span> P.O.Box 3741,Behind Gold & Diamond Park<br />
+                        <span className="flex items-center gap-2"><FaLocationArrow /> P.O.Box 3741,Behind Gold & Diamond Park<br />
                             Sheikh Zayed Road, Al Quoz Ind. 03
                         </span>
-                        <span className="flex items-center gap-2"><span className=""><MdEmail /></span> crm@pdwdubai.com</span>
-                        <span className="flex items-center gap-2"><span className=""><FaPhone /></span>
-                            +971-43411886</span>
-                        <span className="flex items-center gap-2"><span className=""><FaFax /></span> +968-22391571</span>
+                        <span className="flex items-center gap-2"><MdEmail /> <a href="mailto:crm@pdwdubai.com">crm@pdwdubai.com</a></span>
+                        <span className="flex items-center gap-2"><FaPhone /><a href="tel:+971-43411886">+971-43411886</a></span>
+                        <span className="flex items-center gap-2"><FaFax /> <a href="tel:+968-22391571">+968-22391571</a></span>
                     </p>
                     <div className="flex gap-2 text-xl">
                         <a href="" target="_blank" rel="noreferrer"><FaWhatsapp /></a>
