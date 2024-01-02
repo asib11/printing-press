@@ -30,7 +30,7 @@ const ServiceOverView = () => {
                         <img src={cetalog} alt="printingPress" className="rounded-lg h-full" />
                     </figure>
                     <div className="card-body flex-row justify-between items-center">
-                        <h2 className="card-title text-[#800000]">Cataloguebook</h2>
+                        <h2 className="card-title text-[#800000]">Catalogue book</h2>
                         <div className="card-actions">
                             <Link to='/services'>
                                 <button className="btn btn-circle text-[#800000]"><ArrowLongRightIcon className="h-5 w-6" /></button>
@@ -143,11 +143,11 @@ const ServiceOverView = () => {
                     </div>
                 </div>
                 <div className="card max-sm:w-48 w-72 bg-base-100 shadow-xl">
-                    <figure className="p-5">
-                        <img src={three} alt="printingPress" className="rounded-lg" />
+                    <figure className="p-5 h-full">
+                        <img src={three} alt="printingPress" className="rounded-lg h-full" />
                     </figure>
                     <div className="card-body flex-row justify-between items-center">
-                        <h2 className="card-title text-[#800000]">3D Sign</h2>
+                        <h2 className="card-title text-[#800000]">T-Shirt</h2>
                         <div className="card-actions">
                             <Link to='/services'>
                                 <button className="btn btn-circle text-[#800000]"><ArrowLongRightIcon className="h-5 w-6" /></button>

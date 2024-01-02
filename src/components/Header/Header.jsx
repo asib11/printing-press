@@ -1,8 +1,8 @@
 import img1 from '../../assets/banner/PHOTO-2023-11-18-21-37-25.jpg'
-import img2 from '../../assets/banner/truck side.jpg'
-import img3 from '../../assets/banner/ds2.jpg'
-import img4 from '../../assets/banner/car2.jpg'
-import img5 from '../../assets/banner/ds3.jpg'
+import img2 from '../../assets/banner/Signature-Homes-Logo-Design-Presentation-by-ZeroBulb.jpg'
+import img3 from '../../assets/banner/Al-Zaabi-Group-Abu-Dhabi-Logo-Design-1536x864.jpg'
+import img4 from '../../assets/banner/Fabiana-Foods-Dubai-Letterhead-Design.jpg'
+import img5 from '../../assets/banner/petrarichli_restaurant-menu-designer-portfolio.jpg'
 import img6 from '../../assets/banner/truck side.jpg'
 import { ArrowLongLeftIcon, ArrowLongRightIcon, } from '@heroicons/react/24/solid'
 
