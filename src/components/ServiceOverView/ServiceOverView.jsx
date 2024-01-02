@@ -1,9 +1,9 @@
 /* eslint-disable react/no-unescaped-entities */
 import img1 from '../../assets/serviceOverView/img1.jpg'
 import img2 from '../../assets/serviceOverView/img2.jpeg'
-import img3 from '../../assets/serviceOverView/ds.jpg'
+import img3 from '../../assets/serviceOverView/ds2.jpg'
 import img6 from '../../assets/serviceOverView/img6.jpg'
-import sign from '../../assets/serviceOverView/img3D.jpg'
+import sign from '../../assets/serviceOverView/img3D2.jpg'
 import rollUp from '../../assets/serviceOverView/rollup.jpg'
 import { Link } from "react-router-dom";
 import {ArrowLongRightIcon, } from '@heroicons/react/24/solid'
