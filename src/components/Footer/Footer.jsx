@@ -22,7 +22,6 @@ const Footer = () => {
                         <span className="flex items-center gap-2"><span ><MdEmail /></span> sales@primeprintingpress.com</span>
                         <span className="flex items-center gap-2"><span><FaPhone /></span> +968-99364737</span>
                         <span className="flex items-center gap-2"><span ><FaFax /></span> +968-22391571</span>
-                        <span className="flex items-center gap-2"><span ><FaPhone /></span> 22391571</span>
                     </p>
                     <div className="flex gap-2 text-xl">
                         <a href="" target="_blank" rel="noreferrer"><FaWhatsapp /></a>

@@ -18,7 +18,6 @@ const Contact = () => {
                         <span className="flex items-center gap-4"><span className="text-[#800000]"><MdEmail /></span> sales@primeprintingpress.com</span>
                         <span className="flex items-center gap-4"><span className="text-[#800000]"><FaPhone /></span> +968-99364737</span>
                         <span className="flex items-center gap-4"><span className="text-[#800000]"><FaPhone /></span> +968-22391571</span>
-                        <span className="flex items-center gap-4"><span className="text-[#800000]"><FaPhone /></span> 22391571</span>
                     </p>
                     <div className="flex gap-2 lg:text-3xl text-xl text-[#800000]">
                         <a href="" target="_blank" rel="noreferrer"><FaWhatsapp /></a>
