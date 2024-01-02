@@ -3,7 +3,7 @@
 const Services = () => {
     return (
         <div>
-            <p>under develop</p>
+            <p className="p-12 text-3xl">under develop</p>
         </div>
     );
 };

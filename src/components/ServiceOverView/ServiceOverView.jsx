@@ -1,5 +1,10 @@
 /* eslint-disable react/no-unescaped-entities */
-import img1 from '../../assets/banner/ds.jpg'
+import img1 from '../../assets/serviceOverView/img1.jpg'
+import img2 from '../../assets/serviceOverView/img2.jpeg'
+import img3 from '../../assets/serviceOverView/ds.jpg'
+import img6 from '../../assets/serviceOverView/img6.jpg'
+import sign from '../../assets/serviceOverView/img3D.jpg'
+import rollUp from '../../assets/serviceOverView/rollup.jpg'
 import { Link } from "react-router-dom";
 import {ArrowLongRightIcon, } from '@heroicons/react/24/solid'
 
@@ -13,10 +18,10 @@ const ServiceOverView = () => {
             <div className='grid max-sm:grid-cols-2 grid-cols-3 gap-6 max-sm:justify-items-center'>
                 <div className="card max-sm:w-48 w-96 bg-base-100 shadow-xl">
                     <figure className="p-5">
-                        <img src={img1} alt="printingPress" className="rounded-lg" />
+                        <img src={sign} alt="printingPress" className="rounded-lg" />
                     </figure>
                     <div className="card-body flex-row justify-between items-center">
-                        <h2 className="card-title text-[#800000]">Business Card</h2>
+                        <h2 className="card-title text-[#800000]">3D Sign</h2>
                         <div className="card-actions">
                             <Link to='/services'>
                                 <button className="btn btn-circle text-[#800000]"><ArrowLongRightIcon className="h-5 w-6" /></button>
@@ -29,7 +34,7 @@ const ServiceOverView = () => {
                         <img src={img1} alt="printingPress" className="rounded-lg" />
                     </figure>
                     <div className="card-body flex-row justify-between items-center">
-                        <h2 className="card-title text-[#800000]">Letterhead</h2>
+                        <h2 className="card-title text-[#800000]">Wall Graphics</h2>
                         <div className="card-actions">
                             <Link to='/services'>
                                 <button className="btn btn-circle text-[#800000]"><ArrowLongRightIcon className="h-5 w-6" /></button>
@@ -39,10 +44,10 @@ const ServiceOverView = () => {
                 </div>
                 <div className="card max-sm:w-48 w-96 bg-base-100 shadow-xl">
                     <figure className="p-5">
-                        <img src={img1} alt="printingPress" className="rounded-lg" />
+                        <img src={img3} alt="printingPress" className="rounded-lg" />
                     </figure>
                     <div className="card-body flex-row justify-between items-center">
-                        <h2 className="card-title text-[#800000]">Stamp</h2>
+                        <h2 className="card-title text-[#800000]">MDF Stand</h2>
                         <div className="card-actions">
                             <Link to='/services'>
                                 <button className="btn btn-circle text-[#800000]"><ArrowLongRightIcon className="h-5 w-6" /></button>
@@ -52,10 +57,10 @@ const ServiceOverView = () => {
                 </div>
                 <div className="card max-sm:w-48 w-96 bg-base-100 shadow-xl">
                     <figure className="p-5">
-                        <img src={img1} alt="printingPress" className="rounded-lg" />
+                        <img src={rollUp} alt="printingPress" className="rounded-lg" />
                     </figure>
                     <div className="card-body flex-row justify-between items-center">
-                        <h2 className="card-title text-[#800000]">Books</h2>
+                        <h2 className="card-title text-[#800000]">Roll Up</h2>
                         <div className="card-actions">
                             <Link to='/services'>
                                 <button className="btn btn-circle text-[#800000]"><ArrowLongRightIcon className="h-5 w-6" /></button>
@@ -65,10 +70,10 @@ const ServiceOverView = () => {
                 </div>
                 <div className="card max-sm:w-48 w-96 bg-base-100 shadow-xl">
                     <figure className="p-5">
-                        <img src={img1} alt="printingPress" className="rounded-lg" />
+                        <img src={img2} alt="printingPress" className="rounded-lg" />
                     </figure>
                     <div className="card-body flex-row justify-between items-center">
-                        <h2 className="card-title text-[#800000]">Digital Stickers Printing with Lamination</h2>
+                        <h2 className="card-title text-[#800000]">Gifting</h2>
                         <div className="card-actions">
                             <Link to='/services'>
                                 <button className="btn btn-circle text-[#800000]"><ArrowLongRightIcon className="h-5 w-6" /></button>
@@ -78,10 +83,10 @@ const ServiceOverView = () => {
                 </div>
                 <div className="card max-sm:w-48 w-96 bg-base-100 shadow-xl">
                     <figure className="p-5">
-                        <img src={img1} alt="printingPress" className="rounded-lg" />
+                        <img src={img6} alt="printingPress" className="rounded-lg" />
                     </figure>
                     <div className="card-body flex-row justify-between items-center">
-                        <h2 className="card-title text-[#800000]">Perfume Box</h2>
+                        <h2 className="card-title text-[#800000]">Vehicle Graphics</h2>
                         <div className="card-actions">
                             <Link to='/services'>
                                 <button className="btn btn-circle text-[#800000]"><ArrowLongRightIcon className="h-5 w-6" /></button>

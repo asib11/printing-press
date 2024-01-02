@@ -1,6 +1,6 @@
 // import logo1 from '../../assets/logo/Prime printing press logo.png'
 // import logo2 from '../../assets/logo/Prime digital logo.png'
-import { FaFacebook, FaLinkedin, FaInstagram, FaPhone, FaWhatsapp, FaGoogle, FaLocationArrow } from "react-icons/fa";
+import { FaFacebook, FaLinkedin, FaInstagram, FaPhone, FaWhatsapp, FaGoogle, FaLocationArrow,FaFax } from "react-icons/fa";
 import { MdEmail, } from "react-icons/md";
 
 
@@ -8,37 +8,50 @@ const Footer = () => {
     return (
         <footer className="footer p-10 bg-[#800000] rounded-md text-white">
             <aside>
-                <h2 className="text-3xl">المطبعة الرئيسية</h2>
-                <h2 className="text-3xl">Prime Printing Press</h2>
-                <p>
-                    <span className="flex items-center gap-2"><FaLocationArrow /> PO Box 336, PC 112, CBD, Ruwi, Muscat, <br />
-                    Sultanate of Oman  Near the Central Bank of Oman</span>
-                    <span className="flex items-center gap-2"><MdEmail /> sales@primeprintingpress.com</span>
-                    <span className="flex items-center gap-2"><FaPhone /> +968-99364737</span>
-                    <span className="flex items-center gap-2"><FaPhone /> 22391571</span>
-
-                </p>
-                <div className="flex gap-2 text-xl">
-                    <a href="" target="_blank" rel="noreferrer"><FaWhatsapp /></a>
-                    <a href="" target="_blank" rel="noreferrer"><FaFacebook /></a>
-                    <a href="" target="_blank" rel="noreferrer"><FaLinkedin /></a>
-                    <a href="" target="_blank" rel="noreferrer"><FaInstagram /></a>
-                    <a href="" target="_blank" rel="noreferrer"><FaGoogle /></a>
+            <div className="space-y-2">
+                    <h1 className=" text-5xl font-bold">Muscat Office</h1>
+                    <h3 className=" text-3xl font-semibold">Prime Printing Press</h3>
+                    <h3 className="text-3xl font-semibold">Prime Digital World</h3>
+                    <p className="text-lg">
+                        <span className="flex items-center gap-2"><span className=""><FaLocationArrow /></span> PO Box 336, PC 112, CBD, Ruwi, Muscat, <br />
+                            Muttrah House Building <br />
+                            Next to Central Bank of Oman <br />
+                            Near at Lama Polyclinic
+                        </span>
+                        <span className="flex items-center gap-2"><span ><MdEmail /></span> sales@primeprintingpress.com</span>
+                        <span className="flex items-center gap-2"><span><FaPhone /></span> +968-99364737</span>
+                        <span className="flex items-center gap-2"><span ><FaFax /></span> +968-22391571</span>
+                        <span className="flex items-center gap-2"><span ><FaPhone /></span> 22391571</span>
+                    </p>
+                    <div className="flex gap-2 text-xl">
+                        <a href="" target="_blank" rel="noreferrer"><FaWhatsapp /></a>
+                        <a href="" target="_blank" rel="noreferrer"><FaFacebook /></a>
+                        <a href="" target="_blank" rel="noreferrer"><FaLinkedin /></a>
+                        <a href="" target="_blank" rel="noreferrer"><FaInstagram /></a>
+                        <a href="" target="_blank" rel="noreferrer"><FaGoogle /></a>
+                    </div>
                 </div>
             </aside>
             <nav>
                 <header className="footer-title">Services</header>
-                <a className="link link-hover">Branding</a>
-                <a className="link link-hover">Design</a>
-                <a className="link link-hover">Marketing</a>
-                <a className="link link-hover">Advertisement</a>
+                <a className="link link-hover">Digital Printing</a>
+                <a className="link link-hover">Offset Printing</a>
+                <a className="link link-hover">Logistics</a>
+                <a className="link link-hover">Rollup stands</a>
+                <a className="link link-hover">Vehicle Graphics</a>
+                <a className="link link-hover">Window Graphics</a>
+                <a className="link link-hover">Screen Printing</a>
+                <a className="link link-hover">Sign Maker</a>
+                <a className="link link-hover">Book Printing</a>
+                <a className="link link-hover">Letterhead</a>
+                <a className="link link-hover">Business Card</a>
+                <a className="link link-hover">Stationery</a>
             </nav>
             <nav>
                 <header className="footer-title">Company</header>
                 <a className="link link-hover">About us</a>
                 <a className="link link-hover">Contact</a>
                 <a className="link link-hover">Jobs</a>
-                <a className="link link-hover">Press kit</a>
             </nav>
             <nav>
                 <header className="footer-title">Legal</header>
@@ -47,22 +60,25 @@ const Footer = () => {
                 <a className="link link-hover">Cookie policy</a>
             </nav>
             <aside>
-                <h2 className="text-3xl">العالم الرقمي الأول</h2>
-                <h2 className="text-3xl">Prime Digital World</h2>
-                <p>
-                    <span className="flex items-center gap-2"><FaLocationArrow /> PO Box 336, PC 112, CBD, Ruwi, Muscat, <br />
-                    Sultanate of Oman  Near the Central Bank of Oman</span>
-                    <span className="flex items-center gap-2"><MdEmail /> sales@primeprintingpress.com</span>
-                    <span className="flex items-center gap-2"><FaPhone /> +968-99364737</span>
-                    <span className="flex items-center gap-2"><FaPhone /> 22391571</span>
-
-                </p>
-                <div className="flex gap-2 text-xl">
-                    <a href="" target="_blank" rel="noreferrer"><FaWhatsapp /></a>
-                    <a href="" target="_blank" rel="noreferrer"><FaFacebook /></a>
-                    <a href="" target="_blank" rel="noreferrer"><FaLinkedin /></a>
-                    <a href="" target="_blank" rel="noreferrer"><FaInstagram /></a>
-                    <a href="" target="_blank" rel="noreferrer"><FaGoogle /></a>
+                <div className="space-y-3">
+                    <h1 className=" text-5xl font-abold">Dubai-UAE</h1>
+                    <h3 className=" text-3xl font-semibold">Prime Digital World LLC</h3>
+                    <p className="text-lg">
+                        <span className="flex items-center gap-2"><span className=""><FaLocationArrow /></span> P.O.Box 3741,Behind Gold & Diamond Park<br />
+                            Sheikh Zayed Road, Al Quoz Ind. 03
+                        </span>
+                        <span className="flex items-center gap-2"><span className=""><MdEmail /></span> crm@pdwdubai.com</span>
+                        <span className="flex items-center gap-2"><span className=""><FaPhone /></span>
+                            +971-43411886</span>
+                        <span className="flex items-center gap-2"><span className=""><FaFax /></span> +968-22391571</span>
+                    </p>
+                    <div className="flex gap-2 text-xl">
+                        <a href="" target="_blank" rel="noreferrer"><FaWhatsapp /></a>
+                        <a href="" target="_blank" rel="noreferrer"><FaFacebook /></a>
+                        <a href="" target="_blank" rel="noreferrer"><FaLinkedin /></a>
+                        <a href="" target="_blank" rel="noreferrer"><FaInstagram /></a>
+                        <a href="" target="_blank" rel="noreferrer"><FaGoogle /></a>
+                    </div>
                 </div>
             </aside>
         </footer>
