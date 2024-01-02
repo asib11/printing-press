@@ -3,7 +3,7 @@ import img2 from '../../assets/banner/truck side.jpg'
 import img3 from '../../assets/banner/ds2.jpg'
 import img4 from '../../assets/banner/car2.jpg'
 import img5 from '../../assets/banner/ds3.jpg'
-import img6 from '../../assets/banner/3d.jpg'
+import img6 from '../../assets/banner/truck side.jpg'
 import { ArrowLongLeftIcon, ArrowLongRightIcon, } from '@heroicons/react/24/solid'
 
 const Header = () => {

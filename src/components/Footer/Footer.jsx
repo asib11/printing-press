@@ -20,8 +20,8 @@ const Footer = () => {
                             Near at Lama Polyclinic
                         </span>
                         <span className="flex items-center gap-2"><MdEmail /> <a href="mailto:sales@primeprintingpress.com">sales@primeprintingpress.com</a></span>
-                        <span className="flex items-center gap-2"><FaPhone /> <a href="tel:+968-99364737">+968-99364737</a></span>
-                        <span className="flex items-center gap-2"><FaFax /><a href="tel:+968-22391571">+968-22391571</a></span>
+                        <span className="flex items-center gap-2"><FaPhone /> <a href="tel:+96899364737">+968-99364737</a></span>
+                        <span className="flex items-center gap-2"><FaFax /><a href="tel:+96822391571">+968-22391571</a></span>
                     </p>
                     <div className="flex gap-2 text-xl">
                         <a href="" target="_blank" rel="noreferrer"><FaWhatsapp /></a>
@@ -68,8 +68,8 @@ const Footer = () => {
                             Sheikh Zayed Road, Al Quoz Ind. 03
                         </span>
                         <span className="flex items-center gap-2"><MdEmail /> <a href="mailto:crm@pdwdubai.com">crm@pdwdubai.com</a></span>
-                        <span className="flex items-center gap-2"><FaPhone /><a href="tel:+971-43411886">+971-43411886</a></span>
-                        <span className="flex items-center gap-2"><FaFax /> <a href="tel:+968-22391571">+968-22391571</a></span>
+                        <span className="flex items-center gap-2"><FaPhone /><a href="tel:+97143411886">+971-43411886</a></span>
+                        <span className="flex items-center gap-2"><FaFax /> <a href="tel:+96822391571">+968-22391571</a></span>
                     </p>
                     <div className="flex gap-2 text-xl">
                         <a href="" target="_blank" rel="noreferrer"><FaWhatsapp /></a>
