@@ -61,7 +61,7 @@ const Footer = () => {
             </nav>
             <aside>
                 <div className="space-y-3">
-                    <h1 className=" text-5xl font-abold">Dubai-UAE</h1>
+                    <h1 className=" text-5xl font-bold">Dubai-UAE</h1>
                     <h3 className=" text-3xl font-semibold">Prime Digital World LLC</h3>
                     <p className="text-lg">
                         <span className="flex items-center gap-2"><span className=""><FaLocationArrow /></span> P.O.Box 3741,Behind Gold & Diamond Park<br />
