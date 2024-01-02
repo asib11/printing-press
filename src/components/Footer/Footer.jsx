@@ -2,6 +2,7 @@
 // import logo2 from '../../assets/logo/Prime digital logo.png'
 import { FaFacebook, FaLinkedin, FaInstagram, FaPhone, FaWhatsapp, FaGoogle, FaLocationArrow,FaFax } from "react-icons/fa";
 import { MdEmail, } from "react-icons/md";
+import { Link } from "react-router-dom";
 
 
 const Footer = () => {
@@ -34,24 +35,24 @@ const Footer = () => {
             </aside>
             <nav>
                 <header className="footer-title">Services</header>
-                <a className="link link-hover">Digital Printing</a>
-                <a className="link link-hover">Offset Printing</a>
-                <a className="link link-hover">Logistics</a>
-                <a className="link link-hover">Rollup stands</a>
-                <a className="link link-hover">Vehicle Graphics</a>
-                <a className="link link-hover">Window Graphics</a>
-                <a className="link link-hover">Screen Printing</a>
-                <a className="link link-hover">Sign Maker</a>
-                <a className="link link-hover">Book Printing</a>
-                <a className="link link-hover">Letterhead</a>
-                <a className="link link-hover">Business Card</a>
-                <a className="link link-hover">Stationery</a>
+                <Link to='/services' className="link link-hover">Digital Printing</Link>
+                <Link to='/services' className="link link-hover">Offset Printing</Link>
+                <Link to='/services' className="link link-hover">Logistics</Link>
+                <Link to='/services' className="link link-hover">Rollup stands</Link>
+                <Link to='/services' className="link link-hover">Vehicle Graphics</Link>
+                <Link to='/services' className="link link-hover">Window Graphics</Link>
+                <Link to='/services' className="link link-hover">Screen Printing</Link>
+                <Link to='/services' className="link link-hover">Sign Maker</Link>
+                <Link to='/services' className="link link-hover">Book Printing</Link>
+                <Link to='/services' className="link link-hover">Letterhead</Link>
+                <Link to='/services' className="link link-hover">Business Card</Link>
+                <Link to='/services' className="link link-hover">Stationery</Link>
             </nav>
             <nav>
                 <header className="footer-title">Company</header>
-                <a className="link link-hover">About us</a>
-                <a className="link link-hover">Contact</a>
-                <a className="link link-hover">Jobs</a>
+                <Link to='/about' className="link link-hover">About us</Link>
+                <Link to='/contact' className="link link-hover">Contact</Link>
+                <Link to='/' className="link link-hover">Home</Link>
             </nav>
             <nav>
                 <header className="footer-title">Legal</header>
