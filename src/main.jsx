@@ -11,36 +11,41 @@ import Home from './components/Home/Home.jsx';
 import About from './components/About/About.jsx';
 import Services from './components/Services/Services.jsx';
 import Contact from './components/Contact/Contact.jsx';
+import BusinessCard from './components/BusinessCard/BusinessCard.jsx';
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Main></Main>,
-    children:[
+    children: [
       {
         path: '/',
         element: <Home></Home>
       },
       {
-        path:'about',
-        element:<About></About>
+        path: 'about',
+        element: <About></About>
       },
       {
-        path:'services',
-        element:<Services></Services>
+        path: 'services',
+        element: <Services></Services>,
       },
       {
-        path:'contact',
-        element:<Contact></Contact>
+        path:'businesscard',
+        element:<BusinessCard></BusinessCard>
+      },
+      {
+        path: 'contact',
+        element: <Contact></Contact>
       }
     ]
   },
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <div className='max-w-7xl mx-auto'>
+  <div className='max-w-7xl mx-auto mb-1'>
     <React.StrictMode>
-    <RouterProvider router={router} />
-  </React.StrictMode>,
+      <RouterProvider router={router} />
+    </React.StrictMode>
   </div>
 )

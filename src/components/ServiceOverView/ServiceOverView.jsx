@@ -7,7 +7,7 @@ import sign from '../../assets/serviceOverView/BC_21.jpg'
 import rollUp from '../../assets/serviceOverView/rollup.jpg'
 import lh from '../../assets/serviceOverView/LH_4.jpg'
 import three from '../../assets/serviceOverView/img3D2.jpg'
-import stamp from '../../assets/serviceOverView/Studio-291-Mumbai-Boutique-Logo-Design-ZeroBulb.jpg'
+import stamp from '../../assets/serviceOverView/3d.jpg'
 import envelope from '../../assets/serviceOverView/Opus-Penta-Letterhead-Presentation.jpg'
 import cetalog from '../../assets/serviceOverView/Coastal-Shipping-Links-Kerala-Branding-Collaterals.jpg'
 import book from '../../assets/serviceOverView/book design.jpg'
@@ -23,8 +23,6 @@ const ServiceOverView = () => {
             <h1 className="text-5xl font-bold">Our Service Area</h1>
             <p className="py-6">the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
             <div className='grid max-sm:grid-cols-2 grid-cols-4 gap-6 max-sm:justify-items-center'>
-
-
                 <div className="card max-sm:w-48 w-72 bg-base-100 shadow-xl">
                     <figure className="p-5 h-full">
                         <img src={cetalog} alt="printingPress" className="rounded-lg h-full" />
@@ -64,19 +62,7 @@ const ServiceOverView = () => {
                         </div>
                     </div>
                 </div>
-                <div className="card max-sm:w-48 w-72 bg-base-100 shadow-xl">
-                    <figure className="p-5 h-full">
-                        <img src={stamp} alt="printingPress" className="rounded-lg h-full" />
-                    </figure>
-                    <div className="card-body flex-row justify-between items-center">
-                        <h2 className="card-title text-[#800000]">Stamp</h2>
-                        <div className="card-actions">
-                            <Link to='/services'>
-                                <button className="btn btn-circle text-[#800000]"><ArrowLongRightIcon className="h-5 w-6" /></button>
-                            </Link>
-                        </div>
-                    </div>
-                </div>
+                
                 <div className="card max-sm:w-48 w-72 bg-base-100 shadow-xl">
                     <figure className="p-5 h-full">
                         <img src={envelope} alt="printingPress" className="rounded-lg h-full" />
@@ -135,6 +121,19 @@ const ServiceOverView = () => {
                     </figure>
                     <div className="card-body flex-row justify-between items-center">
                         <h2 className="card-title text-[#800000]">Gifting</h2>
+                        <div className="card-actions">
+                            <Link to='/services'>
+                                <button className="btn btn-circle text-[#800000]"><ArrowLongRightIcon className="h-5 w-6" /></button>
+                            </Link>
+                        </div>
+                    </div>
+                </div>
+                <div className="card max-sm:w-48 w-72 bg-base-100 shadow-xl">
+                    <figure className="p-5 h-full">
+                        <img src={stamp} alt="printingPress" className="rounded-lg h-full" />
+                    </figure>
+                    <div className="card-body flex-row justify-between items-center">
+                        <h2 className="card-title text-[#800000]">3D Sign</h2>
                         <div className="card-actions">
                             <Link to='/services'>
                                 <button className="btn btn-circle text-[#800000]"><ArrowLongRightIcon className="h-5 w-6" /></button>

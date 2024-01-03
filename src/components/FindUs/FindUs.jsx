@@ -34,8 +34,8 @@ const FindUs = () => {
                 </svg>
                 <div className="text-white ml-6">
                     <p>Have a question?</p>
-                    <h3 className="text-xl font-semibold"><a href="tel:+968-22391571">+968-22391571</a></h3>
-                    <h3 className="text-xl font-semibold"><a href="tel:+968-99364737">+968-99364737</a></h3>
+                    <h3 className="text-xl font-semibold"><a href="tel:+96822391571">+968-22391571</a></h3>
+                    <h3 className="text-xl font-semibold"><a href="tel:+96899364737">+968-99364737</a></h3>
                 </div>
             </div>
             <div className="flex max-sm:justify-start justify-center items-center max-sm:mb-5 sm:mb-5 md:mb-6">

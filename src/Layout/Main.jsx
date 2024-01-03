@@ -12,7 +12,7 @@ const Main = () => {
             <Outlet></Outlet>
             <Footer></Footer>
             <div className="flex justify-between text-sm rounded-sm font-semibold mt-1 px-4">
-                <p >copyright{copy} 2024</p>
+                <p >copyright<span className="text-[#C32148]">{copy}</span> <span className="font-bold">2024</span></p>
                 <div className="flex gap-2">
                     <p> Develop by <span className='font-mono font-bold hover:font-extrabold hover:underline text-[#C32148]'>ASIB AHMED</span> </p>
                     <div className="flex gap-2 items-center text-[#C32148]">
@@ -25,7 +25,6 @@ const Main = () => {
                         <a href="https://t.me/asibahmed" target="_blank" rel="noreferrer"><FaTelegram /></a>
                     </div>
                 </div>
-
             </div>
         </div>
     );
