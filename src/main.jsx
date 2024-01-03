@@ -12,6 +12,7 @@ import About from './components/About/About.jsx';
 import Services from './components/Services/Services.jsx';
 import Contact from './components/Contact/Contact.jsx';
 import BusinessCard from './components/BusinessCard/BusinessCard.jsx';
+import AllServices from './components/AllServices/AllServices.jsx';
 
 const router = createBrowserRouter([
   {
@@ -23,20 +24,26 @@ const router = createBrowserRouter([
         element: <Home></Home>
       },
       {
-        path: 'about',
+        path: '/about',
         element: <About></About>
       },
       {
-        path: 'services',
-        element: <Services></Services>,
-      },
-      {
-        path:'businesscard',
-        element:<BusinessCard></BusinessCard>
-      },
-      {
-        path: 'contact',
+        path: '/contact',
         element: <Contact></Contact>
+      }
+    ]
+  },
+  {
+    path: '/services',
+    element: <Services></Services>,
+    children:[
+      {
+        path:'/services',
+        element:<AllServices></AllServices>
+      },
+      {
+        path:'/services/businesscard',
+        element:<BusinessCard></BusinessCard>
       }
     ]
   },

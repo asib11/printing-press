@@ -2,7 +2,7 @@
 const BusinessCard = () => {
     return (
         <div>
-            <p>ok</p>
+            <p>this is business card</p>
         </div>
     );
 };

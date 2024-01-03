@@ -35,7 +35,7 @@ const Footer = () => {
             <nav>
                 <header className="footer-title">Services</header>
                 <Link to='/services' className="link link-hover">Catalogue Book</Link>
-                <Link to='/businesscard' className="link link-hover">Business Card</Link>
+                <Link to='/services/businesscard' className="link link-hover">Business Card</Link>
                 <Link to='/services' className="link link-hover">Letterhead</Link>
                 <Link to='/services' className="link link-hover">Envelope</Link>
                 <Link to='/services' className="link link-hover">Book</Link>
