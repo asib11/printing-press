@@ -1,8 +1,10 @@
 import { useEffect } from "react";
-import { useParams } from "react-router-dom";
+import { useLoaderData, useParams } from "react-router-dom";
 
 const BusinessCard = () => {
-    const {id} = useParams()
+    const {id} = useParams();
+    const imageData = useLoaderData();
+    const {img} = imageData;
     // useEffect(()=>{
     //     fetch('services.json')
     //     .then(res => res.json())
@@ -11,7 +13,7 @@ const BusinessCard = () => {
     // ,[])
     return (
         <div>
-            <p>this is business card {id}</p>
+            <p>this is business card {img.length}</p>
         </div>
     );
 };
