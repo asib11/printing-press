@@ -8,7 +8,7 @@ const LeftNav = () => {
                 <Link to='/services' className="text-2xl font-semibold">Services</Link>
                 <Link to='/services' className="link link-hover">Catalogue Book</Link>
                 <Link to='/services/businesscard' className="link link-hover">Business Card</Link>
-                <Link to='/services' className="link link-hover">Letterhead</Link>
+                <Link to='/services/letterhead' className="link link-hover">Letterhead</Link>
                 <Link to='/services' className="link link-hover">Envelope</Link>
                 <Link to='/services' className="link link-hover">Book</Link>
                 <Link to='/services' className="link link-hover">Box</Link>

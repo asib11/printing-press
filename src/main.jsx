@@ -13,6 +13,7 @@ import Services from './components/Services/Services.jsx';
 import Contact from './components/Contact/Contact.jsx';
 import BusinessCard from './components/BusinessCard/BusinessCard.jsx';
 import AllServices from './components/AllServices/AllServices.jsx';
+import LetterHead from './components/LetterHead/LetterHead.jsx';
 
 const router = createBrowserRouter([
   {
@@ -36,14 +37,18 @@ const router = createBrowserRouter([
   {
     path: '/services',
     element: <Services></Services>,
-    children:[
+    children: [
       {
-        path:'/services',
-        element:<AllServices></AllServices>
+        path: '/services',
+        element: <AllServices></AllServices>
       },
       {
-        path:'businesscard',
-        element:<BusinessCard></BusinessCard>
+        path: 'businesscard',
+        element: <BusinessCard></BusinessCard>
+      },
+      {
+        path: 'letterhead',
+        element:<LetterHead></LetterHead>
       }
     ]
   },

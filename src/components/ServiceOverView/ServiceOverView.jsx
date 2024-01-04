@@ -43,7 +43,7 @@ const ServiceOverView = () => {
                     <div className="card-body flex-row justify-between items-center">
                         <h2 className="card-title text-[#800000]">Business Card</h2>
                         <div className="card-actions">
-                            <Link to='/services'>
+                            <Link to='/services/businesscard'>
                                 <button className="btn btn-circle text-[#800000]"><ArrowLongRightIcon className="h-5 w-6" /></button>
                             </Link>
                         </div>
@@ -56,7 +56,7 @@ const ServiceOverView = () => {
                     <div className="card-body flex-row justify-between items-center">
                         <h2 className="card-title text-[#800000]">Letterhead</h2>
                         <div className="card-actions">
-                            <Link to='/services'>
+                            <Link to='/services/letterhead'>
                                 <button className="btn btn-circle text-[#800000]"><ArrowLongRightIcon className="h-5 w-6" /></button>
                             </Link>
                         </div>

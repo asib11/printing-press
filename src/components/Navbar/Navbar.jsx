@@ -11,18 +11,18 @@ const Navbar = () => {
             <details>
                 <summary><Link to='/services'>Services</Link></summary>
                 <ul className="p-2 w-40">
-                    <li><Link>Submenu 1</Link></li>
-                    <li><Link>Submenu 2</Link></li>
-                    <li><Link>Submenu 2</Link></li>
-                    <li><Link>Submenu 2</Link></li>
-                    <li><Link>Submenu 2</Link></li>
-                    <li><Link>Submenu 2</Link></li>
-                    <li><Link>Submenu 2</Link></li>
-                    <li><Link>Submenu 2</Link></li>
-                    <li><Link>Submenu 2</Link></li>
-                    <li><Link>Submenu 2</Link></li>
-                    <li><Link>Submenu 2</Link></li>
-                    <li><Link>Submenu 2</Link></li>
+                    <li><Link to={`/services/cataloguebook`}>Catalogue Book</Link></li>
+                    <li><Link to={`/services/businesscard`}>Business Card</Link></li>
+                    <li><Link to={`/services/letterhead`}>Letter Head</Link></li>
+                    <li><Link to={`/services/envelope`}>Envelope</Link></li>
+                    <li><Link to={`/services/book`}>Book</Link></li>
+                    <li><Link to={`/services/box`}>Box</Link></li>
+                    <li><Link to={`/services/rollup`}>Roll Up</Link></li>
+                    <li><Link to={`/services/gifting`}>Gifting</Link></li>
+                    <li><Link to={`/services/3dsign`}>3D Sign</Link></li>
+                    <li><Link to={`/services/tshirt`}>T-Shirt</Link></li>
+                    <li><Link to={`/services/wallgraphics`}>Wall Graphics</Link></li>
+                    <li><Link to={`/services/vehiclegraphics`}>Vehicle Graphics</Link></li>
                 </ul>
             </details>
         </li>

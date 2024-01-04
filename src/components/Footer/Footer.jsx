@@ -36,16 +36,16 @@ const Footer = () => {
                 <header className="footer-title">Services</header>
                 <Link to='/services' className="link link-hover">Catalogue Book</Link>
                 <Link to='/services/businesscard' className="link link-hover">Business Card</Link>
-                <Link to='/services' className="link link-hover">Letterhead</Link>
-                <Link to='/services' className="link link-hover">Envelope</Link>
-                <Link to='/services' className="link link-hover">Book</Link>
-                <Link to='/services' className="link link-hover">Box</Link>
+                <Link to='/services/letterhead' className="link link-hover">Letterhead</Link>
+                <Link to='/services/envelope' className="link link-hover">Envelope</Link>
+                <Link to='/services/book' className="link link-hover">Book</Link>
+                <Link to='/services/box' className="link link-hover">Box</Link>
                 <Link to='/services' className="link link-hover">Roll Up</Link>
                 <Link to='/services' className="link link-hover">Gifting</Link>
                 <Link to='/services' className="link link-hover">3D Sign</Link>
                 <Link to='/services' className="link link-hover">T-Shirt</Link>
                 <Link to='/services' className="link link-hover">Wall Graphics</Link>
-                <Link to='/services' className="link link-hover">vehicle Graphics</Link>
+                <Link to='/services' className="link link-hover">Vehicle Graphics</Link>
             </nav>
             <nav>
                 <header className="footer-title">Company</header>
