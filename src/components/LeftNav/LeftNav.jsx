@@ -4,8 +4,8 @@ import { Link } from "react-router-dom";
 const LeftNav = () => {
     return (
         <div>
-            <nav className="flex flex-col">
-                <Link to='/services'><header className="footer-title">Services</header></Link>
+            <nav className="flex flex-col text-[#800000] space-y-4 pl-3">
+                <Link to='/services' className="text-2xl font-semibold">Services</Link>
                 <Link to='/services' className="link link-hover">Catalogue Book</Link>
                 <Link to='/services/businesscard' className="link link-hover">Business Card</Link>
                 <Link to='/services' className="link link-hover">Letterhead</Link>

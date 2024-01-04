@@ -11,9 +11,9 @@ const Services = () => {
     return (
         <div>
             <Navbar></Navbar>
-            <div className="grid grid-cols-5 gap-4">
-                <div className="col-span-1 border-2 border-black"> <LeftNav></LeftNav> </div>
-                <div className="col-span-4 border-2 border-black"> <Outlet></Outlet> </div>
+            <div className="grid grid-cols-6 gap-4">
+                <div className="col-span-1"> <LeftNav></LeftNav> </div>
+                <div className="col-span-5"> <Outlet></Outlet> </div>
             </div>
             <Footer></Footer>
             <div className="flex justify-between text-sm rounded-sm font-semibold mt-1 px-4">
