@@ -1,20 +1,33 @@
-import { Outlet } from "react-router-dom";
-import { FaFacebook, FaLinkedin, FaInstagram, FaGithub, FaWhatsapp,FaTelegram } from "react-icons/fa";
+import { Link, Outlet } from "react-router-dom";
+import { FaFacebook, FaLinkedin, FaInstagram, FaGithub, FaWhatsapp, FaTelegram } from "react-icons/fa";
 import { SiGmail } from "react-icons/si";
 import LeftNav from "../LeftNav/LeftNav";
 import Navbar from "../Navbar/Navbar";
 import Footer from "../Footer/Footer";
-
+import { useLoaderData } from "react-router-dom";
 
 const Services = () => {
+    const servicesData = useLoaderData();
     const copy = String.fromCodePoint(0x00A9);
     return (
         <div>
             <Navbar></Navbar>
             <div className="grid grid-cols-5 gap-4">
-                <div className="col-span-1 border-2 border-black"> <LeftNav></LeftNav> </div>
+                <div className="col-span-1 border-2 border-black">
+                <Link to={`/services`}><header className="footer-title">Services</header></Link>
+                    {
+                        servicesData.map(serviceData => 
+                            // console.log(serviceData.id)
+                            <LeftNav
+                                key={serviceData.id}
+                                serviceData={serviceData}
+                            ></LeftNav>
+                        )
+                    }
+                </div>
                 <div className="col-span-4 border-2 border-black"> <Outlet></Outlet> </div>
             </div>
+            {/* {<p>{servicesData.length}</p>} */}
             <Footer></Footer>
             <div className="flex justify-between text-sm rounded-sm font-semibold mt-1 px-4">
                 <p >copyright<span className="text-[#C32148]">{copy}</span> <span className="font-bold">2024</span></p>

@@ -36,14 +36,16 @@ const router = createBrowserRouter([
   {
     path: '/services',
     element: <Services></Services>,
+    loader: () => fetch("services.json"),
     children:[
       {
         path:'/services',
         element:<AllServices></AllServices>
       },
       {
-        path:'/services/businesscard',
-        element:<BusinessCard></BusinessCard>
+        path:'/services/:id',
+        element:<BusinessCard></BusinessCard>,
+        loader: ({params}) => fetch(`http://localhost:5173/services/${params.id}`)
       }
     ]
   },

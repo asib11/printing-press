@@ -1,12 +1,14 @@
 import { Link } from "react-router-dom";
 
 
-const LeftNav = () => {
+const LeftNav = ({serviceData}) => {
+    const {id,title} = serviceData;
     return (
         <div>
             <nav className="flex flex-col">
-                <header className="footer-title">Services</header>
-                <Link to='/services' className="link link-hover">Catalogue Book</Link>
+                
+                <Link to={`/services/${id}`} className="link link-hover">{title}</Link>
+                {/* <Link to='/services' className="link link-hover">Catalogue Book</Link>
                 <Link to='/services' className="link link-hover">Business Card</Link>
                 <Link to='/services' className="link link-hover">Letterhead</Link>
                 <Link to='/services' className="link link-hover">Envelope</Link>
@@ -17,7 +19,7 @@ const LeftNav = () => {
                 <Link to='/services' className="link link-hover">3D Sign</Link>
                 <Link to='/services' className="link link-hover">T-Shirt</Link>
                 <Link to='/services' className="link link-hover">Wall Graphics</Link>
-                <Link to='/services' className="link link-hover">vehicle Graphics</Link>
+                <Link to='/services' className="link link-hover">vehicle Graphics</Link> */}
             </nav>
         </div>
     );
