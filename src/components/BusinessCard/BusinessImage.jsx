@@ -3,7 +3,7 @@
 const BusinessImage = ({image}) => {
     return (
         <div>
-           <img src={image} alt="..." className="rounded-lg"/> 
+           <img src={image} alt="..." className="rounded-lg h-[222.22px]"/> 
         </div>
     );
 };

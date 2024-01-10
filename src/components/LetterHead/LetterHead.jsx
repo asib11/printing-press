@@ -12,12 +12,15 @@ import img12 from '/services/Letter Head & Envelope Design/LH_9.jpg'
 import LetterHeadImage from './LetterHeadImage'
 
 const LetterHead = () => {
-    const images = [img1,img2,img3,img4,img5, img7,img8, img9, img10, img11,img12,]
+    const images = [img1, img2, img3, img4, img5, img7, img8, img9, img10, img11, img12,]
     return (
-        <div className=' grid grid-cols-2 lg:grid-cols-3 gap-4 p-4'>
-            {
-                images.map((image,i) => <LetterHeadImage key={i} image = {image}></LetterHeadImage>)
-            }
+        <div >
+            <h1 className='ml-4 text-5xl font-bold text-[#800000]'>Letterhead</h1>
+            <div className='grid grid-cols-2 lg:grid-cols-3 gap-4 p-4'>
+                {
+                    images.map((image, i) => <LetterHeadImage key={i} image={image}></LetterHeadImage>)
+                }
+            </div>
         </div>
     );
 };
