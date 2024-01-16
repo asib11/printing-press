@@ -24,7 +24,7 @@ const FindUs = () => {
                 <div className="text-white ml-6">
                     <p>We are open Saturday-Thursdy</p>
                     <h3 className="text-xl font-semibold">8:00 am - 1:00 pm {`(Saturday)`}</h3>
-                    <h3 className="text-xl font-semibold">8:00 am - 1:30 pm & 3:00 pm - 6:00 pm</h3>
+                    <h3 className="text-xl font-semibold">8:00 am - 1:30 pm & 3:00 pm - 6:30 pm</h3>
                 </div>
             </div>
             <div className="flex max-sm:justify-start justify-center items-center max-sm:mb-5 sm:mb-5 md:mb-6">

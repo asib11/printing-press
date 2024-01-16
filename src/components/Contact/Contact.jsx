@@ -10,8 +10,8 @@ const Contact = () => {
                     <h3 className="lg:text-5xl text-3xl font-bold">Prime Printing Press</h3>
                     <h3 className="lg:text-5xl text-3xl font-bold">Prime Digital World</h3>
                     <p className="lg:text-3xl text-xl space-y-2">
-                        <span className="flex items-center gap-4 font-semibold"><span className="text-[#800000]"><FaLocationArrow /></span> PO Box 336, PC 112, CBD, Ruwi, Muscat, <br />
-                            Muttrah House Building <br />
+                        <span className="flex items-center gap-4 font-semibold"><span className="text-[#800000]"><FaLocationArrow /></span> P.O.Box 336, PC 112, CBD, Ruwi, Muscat, <br />
+                            Muttrah 54 House Building <br />
                             Next to Central Bank of Oman <br />
                             Near at Lama Polyclinic
                         </span>
@@ -31,7 +31,7 @@ const Contact = () => {
                     <h1 className="lg:text-7xl text-5xl font-extrabold text-[#800000]">Dubai-UAE</h1>
                     <h3 className="lg:text-5xl text-3xl font-bold">Prime Digital World LLC</h3>
                     <p className="lg:text-3xl text-xl space-y-2">
-                        <span className="flex items-center gap-4 font-semibold"><span className="text-[#800000]"><FaLocationArrow /></span> P.O.Box 3741,Behind Gold & Diamond Park<br />
+                        <span className="flex items-center gap-4 font-semibold"><span className="text-[#800000]"><FaLocationArrow /></span> P.O.Box 3741, Behind Gold & Diamond Park<br />
                             Sheikh Zayed Road, Al Quoz Ind. 03
                         </span>
                         <span className="flex items-center gap-4"><span className="text-[#800000]"><MdEmail /></span> crm@pdwdubai.com</span>

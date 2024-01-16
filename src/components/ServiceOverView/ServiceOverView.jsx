@@ -23,19 +23,7 @@ const ServiceOverView = () => {
             <h1 className="text-5xl font-bold">Our Service Area</h1>
             <p className="py-6">the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
             <div className='grid max-sm:grid-cols-2 grid-cols-4 gap-6 max-sm:justify-items-center'>
-                <div className="card max-sm:w-48 w-72 bg-base-100 shadow-xl">
-                    <figure className="p-5 h-full">
-                        <img src={cetalog} alt="printingPress" className="rounded-lg h-full" />
-                    </figure>
-                    <div className="card-body flex-row justify-between items-center">
-                        <h2 className="card-title text-[#800000]">Catalogue book</h2>
-                        <div className="card-actions">
-                            <Link to='/services'>
-                                <button className="btn btn-circle text-[#800000]"><ArrowLongRightIcon className="h-5 w-6" /></button>
-                            </Link>
-                        </div>
-                    </div>
-                </div>
+                
                 <div className="card max-sm:w-48 w-72 bg-base-100 shadow-xl">
                     <figure className="p-5 h-full">
                         <img src={sign} alt="printingPress" className="rounded-lg h-full" />
@@ -51,7 +39,7 @@ const ServiceOverView = () => {
                 </div>
                 <div className="card max-sm:w-48 w-72 bg-base-100 shadow-xl">
                     <figure className="p-5 h-full">
-                        <img src={lh} alt="printingPress" className="rounded-lg h-full" />
+                        <img src={lh} alt="printingPress" className="rounded-lg h-full " />
                     </figure>
                     <div className="card-body flex-row justify-between items-center">
                         <h2 className="card-title text-[#800000]">Letterhead</h2>
@@ -95,6 +83,19 @@ const ServiceOverView = () => {
                     </figure>
                     <div className="card-body flex-row justify-between items-center">
                         <h2 className="card-title text-[#800000]">box</h2>
+                        <div className="card-actions">
+                            <Link to='/services'>
+                                <button className="btn btn-circle text-[#800000]"><ArrowLongRightIcon className="h-5 w-6" /></button>
+                            </Link>
+                        </div>
+                    </div>
+                </div>
+                <div className="card max-sm:w-48 w-72 bg-base-100 shadow-xl">
+                    <figure className="p-5 h-full">
+                        <img src={cetalog} alt="printingPress" className="rounded-lg h-full" />
+                    </figure>
+                    <div className="card-body flex-row justify-between items-center">
+                        <h2 className="card-title text-[#800000]">Paper Punch File</h2>
                         <div className="card-actions">
                             <Link to='/services'>
                                 <button className="btn btn-circle text-[#800000]"><ArrowLongRightIcon className="h-5 w-6" /></button>
