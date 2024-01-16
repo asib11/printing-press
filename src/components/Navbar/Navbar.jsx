@@ -48,7 +48,7 @@ const Navbar = () => {
             </div>
             <div className="navbar-start">
 
-                <Link className="lg:text-3xl md:text-2xl text-sm font-semibold">
+                <Link to={`/`} className="lg:text-3xl md:text-2xl text-sm font-semibold">
                     <div >
                         <img src={logo1} alt="" />
                     </div>
@@ -66,7 +66,7 @@ const Navbar = () => {
                 </ul>
             </div>
             <div className="navbar-end">
-                <Link className="lg:text-3xl md:text-2xl text-sm font-semibold">
+                <Link to={`/`} className="lg:text-3xl md:text-2xl text-sm font-semibold">
                     <div>
                         <img src={logo2} alt="" />
                     </div>

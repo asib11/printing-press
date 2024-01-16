@@ -12,7 +12,7 @@ import img12 from '/services/Letter Head & Envelope Design/LH_9.jpg'
 import LetterHeadImage from './LetterHeadImage'
 
 const LetterHead = () => {
-    const images = [img1, img2, img3, img4, img5, img7, img8, img9, img10, img11, img12,]
+    const images = [img4, img7, img3, img1, img5, img2, img8, img9, img10, img11, img12]
     return (
         <div >
             <h1 className='ml-4 text-5xl font-bold text-[#800000]'>Letterhead</h1>

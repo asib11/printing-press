@@ -4,7 +4,7 @@ const About = () => {
     return (
         <div className="max-sm:px-4">
             <h1 className="text-7xl max-sm:text-5xl font-extrabold text-[#800000] mt-10 ">About Us</h1>
-            <div className="text-xl max-sm:text-lg py-10 ">
+            <div className="text-xl max-sm:text-lg py-10">
                 <p className="text-justify">Prime Printing Press and Prime Digital World is one of the
                     largest printing presses based in Sultanate of Oman.
                     Incorporated in the year 2001, we are the most progressive and professionally managed printing
