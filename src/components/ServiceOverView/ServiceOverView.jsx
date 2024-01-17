@@ -58,7 +58,7 @@ const ServiceOverView = () => {
                     <div className="card-body flex-row justify-between items-center">
                         <h2 className="card-title text-[#800000]">Envelope</h2>
                         <div className="card-actions">
-                            <Link to='/services'>
+                            <Link to='/services/envelope'>
                                 <button className="btn btn-circle text-[#800000]"><ArrowLongRightIcon className="h-5 w-6" /></button>
                             </Link>
                         </div>
@@ -71,7 +71,7 @@ const ServiceOverView = () => {
                     <div className="card-body flex-row justify-between items-center">
                         <h2 className="card-title text-[#800000]">Book</h2>
                         <div className="card-actions">
-                            <Link to='/services'>
+                            <Link to='/services/book'>
                                 <button className="btn btn-circle text-[#800000]"><ArrowLongRightIcon className="h-5 w-6" /></button>
                             </Link>
                         </div>
@@ -84,7 +84,7 @@ const ServiceOverView = () => {
                     <div className="card-body flex-row justify-between items-center">
                         <h2 className="card-title text-[#800000]">box</h2>
                         <div className="card-actions">
-                            <Link to='/services'>
+                            <Link to='/services/box'>
                                 <button className="btn btn-circle text-[#800000]"><ArrowLongRightIcon className="h-5 w-6" /></button>
                             </Link>
                         </div>
@@ -97,7 +97,7 @@ const ServiceOverView = () => {
                     <div className="card-body flex-row justify-between items-center">
                         <h2 className="card-title text-[#800000]">Paper Punch File</h2>
                         <div className="card-actions">
-                            <Link to='/services'>
+                            <Link to='/services/paperfile'>
                                 <button className="btn btn-circle text-[#800000]"><ArrowLongRightIcon className="h-5 w-6" /></button>
                             </Link>
                         </div>
@@ -110,7 +110,7 @@ const ServiceOverView = () => {
                     <div className="card-body flex-row justify-between items-center">
                         <h2 className="card-title text-[#800000]">Roll Up</h2>
                         <div className="card-actions">
-                            <Link to='/services'>
+                            <Link to='/services/rollup'>
                                 <button className="btn btn-circle text-[#800000]"><ArrowLongRightIcon className="h-5 w-6" /></button>
                             </Link>
                         </div>
