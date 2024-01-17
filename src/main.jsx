@@ -14,6 +14,9 @@ import Contact from './components/Contact/Contact.jsx';
 import BusinessCard from './components/BusinessCard/BusinessCard.jsx';
 import AllServices from './components/AllServices/AllServices.jsx';
 import LetterHead from './components/LetterHead/LetterHead.jsx';
+import Box from './components/Box/Box.jsx';
+import Book from './components/Book/Book.jsx';
+import Envelope from './components/Envelope/Envelope.jsx';
 
 const router = createBrowserRouter([
   {
@@ -49,6 +52,18 @@ const router = createBrowserRouter([
       {
         path: 'letterhead',
         element:<LetterHead></LetterHead>
+      },
+      {
+        path:'box',
+        element:<Box></Box>
+      },
+      {
+        path:'book',
+        element: <Book></Book>
+      },
+      {
+        path:'envelope',
+        element: <Envelope></Envelope>
       }
     ]
   },

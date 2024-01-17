@@ -131,7 +131,7 @@ const ServiceOverView = () => {
                 </div>
                 <div className="card max-sm:w-48 w-72 bg-base-100 shadow-xl">
                     <figure className="p-5 h-full">
-                        <img src={stamp} alt="printingPress" className="rounded-lg h-full" />
+                        <img src={stamp} alt="printingPress" className="rounded-lg h-full lg:h-[165.33px]" />
                     </figure>
                     <div className="card-body flex-row justify-between items-center">
                         <h2 className="card-title text-[#800000]">3D Sign</h2>
@@ -144,7 +144,7 @@ const ServiceOverView = () => {
                 </div>
                 <div className="card max-sm:w-48 w-72 bg-base-100 shadow-xl">
                     <figure className="p-5 h-full">
-                        <img src={three} alt="printingPress" className="rounded-lg h-full" />
+                        <img src={three} alt="printingPress" className="rounded-lg h-full lg:h-[165.33px]" />
                     </figure>
                     <div className="card-body flex-row justify-between items-center">
                         <h2 className="card-title text-[#800000]">T-Shirt</h2>
@@ -157,7 +157,7 @@ const ServiceOverView = () => {
                 </div>
                 <div className="card max-sm:w-48 w-72 bg-base-100 shadow-xl">
                     <figure className="p-5 h-4/5">
-                        <img src={img1} alt="printingPress" className="rounded-lg h-full" />
+                        <img src={img1} alt="printingPress" className="rounded-lg h-full lg:h-[165.33px]" />
                     </figure>
                     <div className="card-body flex-row justify-between items-center">
                         <h2 className="card-title text-[#800000]">Wall Graphics</h2>
@@ -170,7 +170,7 @@ const ServiceOverView = () => {
                 </div>
                 <div className="card max-sm:w-48 w-72 bg-base-100 shadow-xl">
                     <figure className="p-5">
-                        <img src={img6} alt="printingPress" className="rounded-lg" />
+                        <img src={img6} alt="printingPress" className="rounded-lg h-full lg:h-[165.33px]" />
                     </figure>
                     <div className="card-body flex-row justify-between items-center">
                         <h2 className="card-title text-[#800000]">Vehicle Graphics</h2>
