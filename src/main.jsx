@@ -17,6 +17,8 @@ import LetterHead from './components/LetterHead/LetterHead.jsx';
 import Box from './components/Box/Box.jsx';
 import Book from './components/Book/Book.jsx';
 import Envelope from './components/Envelope/Envelope.jsx';
+import PaperFile from './components/PaperFile/PaperFile.jsx';
+import RollUp from './components/RollUp/RollUp.jsx';
 
 const router = createBrowserRouter([
   {
@@ -64,7 +66,15 @@ const router = createBrowserRouter([
       {
         path:'envelope',
         element: <Envelope></Envelope>
-      }
+      },
+      {
+        path:'paperfile',
+        element: <PaperFile></PaperFile>
+      },
+      {
+        path:'rollup',
+        element: <RollUp></RollUp>
+      },
     ]
   },
 ]);
