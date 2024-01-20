@@ -13,13 +13,13 @@ const Navbar = () => {
                 <ul className="p-2 w-52">
                     <li><Link to={`/services/businesscard`}>Business Card</Link></li>
                     <li><Link to={`/services/letterhead`}>Letter Head</Link></li>
-                    <li><Link to={`/services/envelope`}>Envelope</Link></li>
-                    <li><Link to={`/services/book`}>Book</Link></li>
+                    <li><Link to={`/services/envelope`}>Book & Envelope</Link></li>
+                    <li><Link to={`/services/book`}>Stamp</Link></li>
                     <li><Link to={`/services/box`}>Box</Link></li>
-                    <li><Link to={`/services/cataloguebook`}>Paper Punch File</Link></li>
+                    <li><Link to={`/services/paperfile`}>Paper Punch File</Link></li>
                     <li><Link to={`/services/rollup`}>Roll Up</Link></li>
                     <li><Link to={`/services/gifting`}>Gifting</Link></li>
-                    <li><Link to={`/services/3dsign`}>3D Sign</Link></li>
+                    <li><Link to={`/services/sign`}>3D Sign</Link></li>
                     <li><Link to={`/services/tshirt`}>T-Shirt</Link></li>
                     <li><Link to={`/services/wallgraphics`}>Wall Graphics</Link></li>
                     <li><Link to={`/services/vehiclegraphics`}>Vehicle Graphics</Link></li>
@@ -50,7 +50,7 @@ const Navbar = () => {
 
                 <Link to={`/`} className="lg:text-3xl md:text-2xl text-sm font-semibold">
                     <div >
-                        <img src={logo1} alt="" />
+                        <img src={logo1} alt="..." />
                     </div>
                 </Link>
             </div>
@@ -68,7 +68,7 @@ const Navbar = () => {
             <div className="navbar-end">
                 <Link to={`/`} className="lg:text-3xl md:text-2xl text-sm font-semibold">
                     <div>
-                        <img src={logo2} alt="" />
+                        <img src={logo2} alt="..." />
                     </div>
                 </Link>
             </div>

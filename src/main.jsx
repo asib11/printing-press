@@ -19,6 +19,8 @@ import Book from './components/Book/Book.jsx';
 import Envelope from './components/Envelope/Envelope.jsx';
 import PaperFile from './components/PaperFile/PaperFile.jsx';
 import RollUp from './components/RollUp/RollUp.jsx';
+import Sign from './components/Sign/Sign.jsx';
+import Tshirt from './components/Tshirt/Tshirt.jsx';
 
 const router = createBrowserRouter([
   {
@@ -74,6 +76,14 @@ const router = createBrowserRouter([
       {
         path:'rollup',
         element: <RollUp></RollUp>
+      },
+      {
+        path:'sign',
+        element: <Sign></Sign>
+      },
+      {
+        path:'tshirt',
+        element: <Tshirt></Tshirt>
       },
     ]
   },
