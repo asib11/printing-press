@@ -12,7 +12,7 @@ const Services = () => {
         <div>
             <Navbar></Navbar>
             <div className="grid grid-cols-6 gap-4">
-                <div className="col-span-1"> <LeftNav></LeftNav> </div>
+                <div className="col-span-1 pr-6"> <LeftNav></LeftNav> </div>
                 <div className="col-span-5"> <Outlet></Outlet> </div>
             </div>
             <Footer></Footer>

@@ -21,6 +21,9 @@ import PaperFile from './components/PaperFile/PaperFile.jsx';
 import RollUp from './components/RollUp/RollUp.jsx';
 import Sign from './components/Sign/Sign.jsx';
 import Tshirt from './components/Tshirt/Tshirt.jsx';
+import WallGraphics from './components/WallGraphics/WallGraphics.jsx';
+import Vehicle from './components/Vehicle/Vehicle.jsx';
+import Gifting from './components/Gifting/Gifting.jsx';
 
 const router = createBrowserRouter([
   {
@@ -74,6 +77,10 @@ const router = createBrowserRouter([
         element: <PaperFile></PaperFile>
       },
       {
+        path:'gifting',
+        element: <Gifting></Gifting>
+      },
+      {
         path:'rollup',
         element: <RollUp></RollUp>
       },
@@ -84,6 +91,14 @@ const router = createBrowserRouter([
       {
         path:'tshirt',
         element: <Tshirt></Tshirt>
+      },
+      {
+        path:'wall',
+        element: <WallGraphics></WallGraphics>
+      },
+      {
+        path:'vehicle',
+        element: <Vehicle></Vehicle>
       },
     ]
   },

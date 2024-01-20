@@ -3,7 +3,7 @@
 const BookImage = ({image}) => {
     return (
         <div>
-           <img src={image} alt="..." className="rounded-lg h-[222.22px]"/> 
+           <img src={image} alt="..." className="rounded-lg w-full"/> 
         </div>
     );
 };

@@ -21,8 +21,8 @@ const Navbar = () => {
                     <li><Link to={`/services/gifting`}>Gifting</Link></li>
                     <li><Link to={`/services/sign`}>3D Sign</Link></li>
                     <li><Link to={`/services/tshirt`}>T-Shirt</Link></li>
-                    <li><Link to={`/services/wallgraphics`}>Wall Graphics</Link></li>
-                    <li><Link to={`/services/vehiclegraphics`}>Vehicle Graphics</Link></li>
+                    <li><Link to={`/services/wall`}>Wall Graphics</Link></li>
+                    <li><Link to={`/services/vehicle`}>Vehicle Graphics</Link></li>
                 </ul>
             </details>
         </li>

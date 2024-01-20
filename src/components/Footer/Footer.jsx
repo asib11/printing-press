@@ -43,9 +43,9 @@ const Footer = () => {
                 <Link to='/services/rollup' className="link link-hover">Roll Up</Link>
                 <Link to='/services/gifting' className="link link-hover">Gifting</Link>
                 <Link to='/services/sign' className="link link-hover">3D Sign</Link>
-                <Link to='/services' className="link link-hover">T-Shirt</Link>
-                <Link to='/services' className="link link-hover">Wall Graphics</Link>
-                <Link to='/services' className="link link-hover">Vehicle Graphics</Link>
+                <Link to='/services/tshirt' className="link link-hover">T-Shirt</Link>
+                <Link to='/services/wall' className="link link-hover">Wall Graphics</Link>
+                <Link to='/services/vehicle' className="link link-hover">Vehicle Graphics</Link>
             </nav>
             <nav>
                 <header className="footer-title">Company</header>
