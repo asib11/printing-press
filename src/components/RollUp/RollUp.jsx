@@ -1,6 +1,6 @@
 import PaperFileImage from "../PaperFile/PaperFileImage";
-// import img1 from '/services/Roll up & Pop Up Design/POP UP & Wall Graphics.jpg'
-// import img2 from '/services/Roll up & Pop Up Design/Popup Design.jpg'
+import img1 from '/services/Roll up & Pop Up Design/POP UP & Wall Graphics.jpg'
+import img2 from '/services/Roll up & Pop Up Design/Popup Design.jpg'
 import img3 from '/services/Roll up & Pop Up Design/Roll UP_1.jpg'
 import img4 from '/services/Roll up & Pop Up Design/Roll UP_11.jpg'
 import img5 from '/services/Roll up & Pop Up Design/Roll UP_12.jpg'
@@ -17,7 +17,7 @@ import img15 from '/services/Roll up & Pop Up Design/Roll UP_6.jpg'
 import img16 from '/services/Roll up & Pop Up Design/Roll UP_7.jpg'
 
 const RollUp = () => {
-    const images = [img3,img4,img5,img6,img7,img8,img8,img9,img10,img11,img12,img13,img14,img15,img16]
+    const images = [img4,img5,img6,img7,img8,img8,img9,img10,img11,img12,img13,img14,img15,img16,img3,img2,img1]
     return (
         <div>
             <h1 className='ml-4 text-5xl font-bold text-[#800000]'>Roll Up</h1>
