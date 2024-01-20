@@ -13,7 +13,7 @@ const Contact = () => {
                         <span className="flex items-center gap-4 font-semibold"><span className="text-[#800000]"><FaLocationArrow /></span> P.O.Box 336, PC 112, CBD, Ruwi, Muscat, <br />
                             Muttrah 54 House Building <br />
                             Next to Central Bank of Oman <br />
-                            Near at Lama Polyclinic
+                            Opposite of Bank Muscat
                         </span>
                         <span className="flex items-center gap-4"><span className="text-[#800000]"><MdEmail /></span> sales@primeprintingpress.com</span>
                         <span className="flex items-center gap-4"><span className="text-[#800000]"><FaPhone /></span> +968-99364737</span>

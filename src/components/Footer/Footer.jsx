@@ -15,9 +15,9 @@ const Footer = () => {
                     <h3 className="text-3xl font-semibold">Prime Digital World</h3>
                     <p className="text-lg">
                         <span className="flex items-center gap-2"><FaLocationArrow /> PO Box 336, PC 112, CBD, Ruwi, Muscat, <br />
-                            Muttrah House Building <br />
+                            Muttrah 54 House Building <br />
                             Next to Central Bank of Oman <br />
-                            Near at Lama Polyclinic
+                            Opposite of Bank Muscat
                         </span>
                         <span className="flex items-center gap-2"><MdEmail /> <a href="mailto:sales@primeprintingpress.com">sales@primeprintingpress.com</a></span>
                         <span className="flex items-center gap-2"><FaPhone /> <a href="tel:+96899364737">+968-99364737</a></span>
