@@ -8,7 +8,7 @@ import rollUp from '../../assets/serviceOverView/rollup.jpg'
 import lh from '../../assets/serviceOverView/LH_4.jpg'
 import three from '../../assets/serviceOverView/img3D2.jpg'
 import stamp from '../../assets/serviceOverView/3d.jpg'
-import envelope from '../../assets/serviceOverView/Opus-Penta-Letterhead-Presentation.jpg'
+import smamp from '../../assets/serviceOverView/stamp.jpg'
 import cetalog from '../../assets/serviceOverView/Coastal-Shipping-Links-Kerala-Branding-Collaterals.jpg'
 import book from '../../assets/serviceOverView/book design.jpg'
 
@@ -66,7 +66,7 @@ const ServiceOverView = () => {
                 </div>
                 <div className="card max-sm:w-48 md:w-60 lg:w-72 bg-base-100 shadow-xl">
                     <figure className="p-5 h-full">
-                        <img src={book} alt="printingPress" className="rounded-lg h-full max-sm:h-[93.33px] lg:h-[165.33px]" />
+                        <img src={smamp} alt="printingPress" className="rounded-lg h-full max-sm:h-[93.33px] lg:h-[165.33px]" />
                     </figure>
                     <div className="card-body flex-row justify-between items-center">
                         <h2 className="card-title text-[#800000]">Stamp</h2>

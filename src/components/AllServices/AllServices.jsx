@@ -14,6 +14,7 @@ import Vehicle from "../Vehicle/Vehicle";
 const AllServices = () => {
     return (
         <div>
+            <h1 className="text-center text-7xl font-bold text-[#800000] mb-6">Our All Services in One Page</h1>
             <BusinessCard></BusinessCard>
             <LetterHead></LetterHead>
             <Envelope></Envelope>
