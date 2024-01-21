@@ -14,7 +14,7 @@ const Footer = () => {
                     <h3 className=" text-3xl font-semibold">Prime Printing Press</h3>
                     <h3 className="text-3xl font-semibold">Prime Digital World</h3>
                     <p className="text-lg">
-                        <span className="flex items-center gap-2"><FaLocationArrow /> PO Box 336, PC 112, CBD, Ruwi, Muscat, <br />
+                        <span className="flex items-center gap-2"><FaLocationArrow /> P.O.Box 336, PC 112, CBD, Ruwi, Muscat, <br />
                             Muttrah 54 House Building <br />
                             Next to Central Bank of Oman <br />
                             Opposite of Bank Muscat
