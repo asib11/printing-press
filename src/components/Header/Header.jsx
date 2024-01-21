@@ -14,7 +14,7 @@ const Header = () => {
                 <div className="absolute flex items-center top-0 bottom-0 bg-gradient-to-r from-[#803c00a9] to-[rgba(128, 0, 0, 0.00)] ">
                     <div className='text-white space-y-4 md:space-y-5 lg:space-y-7 pl-16 md:pl-20 lg:pl-24 w-1/2 lg:w-1/3'>
                         <h1 className='lg:text-7xl md:text-5xl text-3xl font-bold'>Affordable Price For Printing Servicing</h1>
-                        <p className='lg:text-lg md:text-base text-xs'>There are many variations of passages of  available, but the majority have suffered alteration in some form</p>
+                        <p className='lg:text-lg md:text-base text-xs'>Our best effort is to provide good products at affordable prices to customers</p>
                         <div className='flex'>
                             <button className='btn rounded-none w-30 lg:w-36 bg-[#800000] border-none mr-3 text-white'>discover more</button>
                         </div>
@@ -30,7 +30,7 @@ const Header = () => {
                 <div className="absolute flex items-center top-0 bottom-0 bg-gradient-to-r from-[#803c00a9] to-[rgba(128, 0, 0, 0.00)] ">
                     <div className='text-white space-y-4 md:space-y-5 lg:space-y-7 pl-16 md:pl-20 lg:pl-24 w-1/2 lg:w-1/3'>
                         <h1 className='lg:text-7xl md:text-5xl text-3xl font-bold'>Affordable Price For Printing Servicing</h1>
-                        <p className='lg:text-lg md:text-base text-xs'>There are many variations of passages of  available, but the majority have suffered alteration in some form</p>
+                        <p className='lg:text-lg md:text-base text-xs'>Our best effort is to provide good products at affordable prices to customers</p>
                         <div>
                             <button className='btn rounded-none w-30 lg:w-36 bg-[#800000] border-none mr-3 text-white'>discover more</button>
                         </div>
@@ -46,7 +46,7 @@ const Header = () => {
                 <div className="absolute flex items-center top-0 bottom-0 bg-gradient-to-r from-[#803c00a9] to-[rgba(128, 0, 0, 0.00)] ">
                     <div className='text-white space-y-4 md:space-y-5 lg:space-y-7 pl-16 md:pl-20 lg:pl-24 w-1/2 lg:w-1/3'>
                         <h1 className='lg:text-7xl md:text-5xl text-3xl font-bold'>Affordable Price For Printing Servicing</h1>
-                        <p className='lg:text-lg md:text-base text-xs'>There are many variations of passages of  available, but the majority have suffered alteration in some form</p>
+                        <p className='lg:text-lg md:text-base text-xs'>Our best effort is to provide good products at affordable prices to customers</p>
                         <div>
                             <button className='btn rounded-none w-30 lg:w-36 bg-[#800000] border-none mr-3 text-white'>discover more</button>
                         </div>
@@ -61,8 +61,8 @@ const Header = () => {
                 <img src={img4} className="w-full" />
                 <div className="absolute flex items-center top-0 bottom-0 bg-gradient-to-r from-[#803c00a9] to-[rgba(128, 0, 0, 0.00)] ">
                     <div className='text-white space-y-4 md:space-y-5 lg:space-y-7 pl-16 md:pl-20 lg:pl-24 w-1/2 lg:w-1/3'>
-                        <h1 className='lg:text-7xl md:text-5xl text-3xl font-bold'>Affordable Price For Car Servicing</h1>
-                        <p className='lg:text-lg md:text-base text-xs'>There are many variations of passages of  available, but the majority have suffered alteration in some form</p>
+                        <h1 className='lg:text-7xl md:text-5xl text-3xl font-bold'>Affordable Price For Printing Servicing</h1>
+                        <p className='lg:text-lg md:text-base text-xs'>Our best effort is to provide good products at affordable prices to customers</p>
                         <div>
                             <button className='btn rounded-none w-30 lg:w-36 bg-[#800000] border-none mr-3 text-white'>discover more</button>
                         </div>
@@ -77,8 +77,8 @@ const Header = () => {
                 <img src={img5} className="w-full" />
                 <div className="absolute flex items-center top-0 bottom-0 bg-gradient-to-r from-[#803c00a9] to-[rgba(128, 0, 0, 0.00)] ">
                     <div className='text-white space-y-4 md:space-y-5 lg:space-y-7 pl-16 md:pl-20 lg:pl-24 w-1/2 lg:w-1/3'>
-                        <h1 className='lg:text-7xl md:text-5xl text-3xl font-bold'>Affordable Price For Car Servicing</h1>
-                        <p className='lg:text-lg md:text-base text-xs'>There are many variations of passages of  available, but the majority have suffered alteration in some form</p>
+                        <h1 className='lg:text-7xl md:text-5xl text-3xl font-bold'>Affordable Price For Printing Servicing</h1>
+                        <p className='lg:text-lg md:text-base text-xs'>Our best effort is to provide good products at affordable prices to customers</p>
                         <div>
                             <button className='btn rounded-none w-30 lg:w-36 bg-[#800000] border-none mr-3 text-white'>discover more</button>
                         </div>
@@ -93,8 +93,8 @@ const Header = () => {
                 <img src={img6} className="w-full" />
                 <div className="absolute flex items-center top-0 bottom-0 bg-gradient-to-r from-[#803c00a9] to-[rgba(128, 0, 0, 0.00)] ">
                     <div className='text-white space-y-4 md:space-y-5 lg:space-y-7 pl-16 md:pl-20 lg:pl-24 w-1/2 lg:w-1/3'>
-                        <h1 className='lg:text-7xl md:text-5xl text-3xl font-bold'>Affordable Price For Car Servicing</h1>
-                        <p className='lg:text-lg md:text-base text-xs'>There are many variations of passages of  available, but the majority have suffered alteration in some form</p>
+                        <h1 className='lg:text-7xl md:text-5xl text-3xl font-bold'>Affordable Price For Printing Servicing</h1>
+                        <p className='lg:text-lg md:text-base text-xs'>Our best effort is to provide good products at affordable prices to customers</p>
                         <div>
                             <button className='btn rounded-none w-30 lg:w-36 bg-[#800000] border-none mr-3 text-white'>discover more</button>
                         </div>

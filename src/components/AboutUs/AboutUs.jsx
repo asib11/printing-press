@@ -9,7 +9,7 @@ const AboutUs = () => {
             <div className="hero-content flex-col-reverse lg:flex-row">
                 <div className='lg:w-1/2 m-0 max-sm:mt-10 md:mt-20 md:pt-6'>
                     <h3 className='text-xl max-sm:text-center font-bold text-[#800000]'>About Us</h3>
-                    <h1 className="text-5xl font-bold">We are qualified & of experience in this field</h1>
+                    <h1 className="text-5xl font-bold">presenting about our skills and experience</h1>
                     <p className="py-6 text-justify">Prime Printing Press and Prime Digital World is one of the
                         largest printing presses based in Sultanate of Oman.
                         Incorporated in the year 2001, we are the most progressive and professionally managed printing
