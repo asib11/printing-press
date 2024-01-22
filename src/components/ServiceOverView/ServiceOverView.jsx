@@ -123,7 +123,7 @@ const ServiceOverView = () => {
                     <div className="card-body flex-row justify-between items-center">
                         <h2 className="card-title text-[#800000]">Gifting</h2>
                         <div className="card-actions">
-                            <Link to='/services'>
+                            <Link to='/services/gifting'>
                                 <button className="btn btn-circle text-[#800000]"><ArrowLongRightIcon className="h-5 w-6" /></button>
                             </Link>
                         </div>
@@ -136,7 +136,7 @@ const ServiceOverView = () => {
                     <div className="card-body flex-row justify-between items-center">
                         <h2 className="card-title text-[#800000]">3D Sign</h2>
                         <div className="card-actions">
-                            <Link to='/services'>
+                            <Link to='/services/sign'>
                                 <button className="btn btn-circle text-[#800000]"><ArrowLongRightIcon className="h-5 w-6" /></button>
                             </Link>
                         </div>
@@ -149,7 +149,7 @@ const ServiceOverView = () => {
                     <div className="card-body flex-row justify-between items-center">
                         <h2 className="card-title text-[#800000]">T-Shirt</h2>
                         <div className="card-actions">
-                            <Link to='/services'>
+                            <Link to='/services/tshirt'>
                                 <button className="btn btn-circle text-[#800000]"><ArrowLongRightIcon className="h-5 w-6" /></button>
                             </Link>
                         </div>
@@ -162,7 +162,7 @@ const ServiceOverView = () => {
                     <div className="card-body flex-row justify-between items-center">
                         <h2 className="card-title text-[#800000]">Wall Graphics</h2>
                         <div className="card-actions">
-                            <Link to='/services'>
+                            <Link to='/services/wall'>
                                 <button className="btn btn-circle text-[#800000]"><ArrowLongRightIcon className="h-5 w-6" /></button>
                             </Link>
                         </div>
@@ -175,7 +175,7 @@ const ServiceOverView = () => {
                     <div className="card-body flex-row justify-between items-center">
                         <h2 className="card-title text-[#800000]">Vehicle Graphics</h2>
                         <div className="card-actions">
-                            <Link to='/services'>
+                            <Link to='/services/vehicle'>
                                 <button className="btn btn-circle text-[#800000]"><ArrowLongRightIcon className="h-5 w-6" /></button>
                             </Link>
                         </div>
